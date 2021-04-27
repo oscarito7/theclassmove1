@@ -1,0 +1,4 @@
+0000.000 (3) Opened log file at time: Tue, 20 Apr 2021 07:20:02 +0000 on https://www.theclassmove.kinsta.cloud
+0000.000 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.41 WP: 5.7.1 PHP: 7.3.27-9+ubuntu20.04.1+deb.sury.org+1 (fpm-fcgi, Linux mvB-theclassmove 5.4.0-1040-gcp #43-Ubuntu SMP Fri Mar 19 17:49:48 UTC 2021 x86_64) MySQL: 10.5.9-MariaDB-1:10.5.9+maria~focal-log WPLANG: es_ES Server: nginx/1.19.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 31.4M | 34M) multisite: N openssl: OpenSSL 1.1.1j  16 Feb 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 (3) Free space on disk containing Updraft's temporary directory: Unknown
+0000.001 (3) This backup task (0d22451f9d5c) is either complete or began over 2 days ago: ending (1618903202.5278, ) (existing jobdata keys: )

@@ -1,0 +1,624 @@
+0000.001 () Opened log file at time: Tue, 20 Apr 2021 07:07:09 +0000 on https://theclassmove.kinsta.cloud
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.53 WP: 5.7.1 PHP: 7.3.27-9+ubuntu20.04.1+deb.sury.org+1 (fpm-fcgi, Linux mvB-theclassmove 5.4.0-1040-gcp #43-Ubuntu SMP Fri Mar 19 17:49:48 UTC 2021 x86_64) MySQL: 10.5.9-MariaDB-1:10.5.9+maria~focal-log WPLANG: es_AR Server: nginx/1.19.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.3M | 4M) multisite: N openssl: OpenSSL 1.1.1j  16 Feb 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: Unknown
+0000.017 () Restore setup, now closing connection and starting restore over AJAX.
+0000.001 () Opened log file at time: Tue, 20 Apr 2021 07:07:11 +0000 on https://theclassmove.kinsta.cloud
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.53 WP: 5.7.1 PHP: 7.3.27-9+ubuntu20.04.1+deb.sury.org+1 (fpm-fcgi, Linux mvB-theclassmove 5.4.0-1040-gcp #43-Ubuntu SMP Fri Mar 19 17:49:48 UTC 2021 x86_64) MySQL: 10.5.9-MariaDB-1:10.5.9+maria~focal-log WPLANG: es_AR Server: nginx/1.19.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.7M | 2M) multisite: N openssl: OpenSSL 1.1.1j  16 Feb 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: Unknown
+0000.002 () Ensuring WP_Filesystem is setup for a restore
+0000.003 () WP_Filesystem is setup and ready for a restore
+0000.004 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_commentmeta","wp_comments","wp_imagify_files","wp_imagify_folders","wp_links","wp_postmeta","wp_posts","wp_searchwp_index","wp_searchwp_log","wp_searchwp_status","wp_searchwp_tokens","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_wc_category_lookup","wp_wc_product_meta_lookup","wp_wc_reserved_stock","wp_wc_tax_rate_classes","wp_wcs_payment_retries","wp_woocommerce_order_itemmeta","wp_woocommerce_payment_tokenmeta","wp_affiliate_wp_affiliatemeta","wp_affiliate_wp_affiliates","wp_affiliate_wp_coupons","wp_affiliate_wp_creatives","wp_affiliate_wp_customermeta","wp_affiliate_wp_customers","wp_affiliate_wp_payouts","wp_affiliate_wp_referralmeta","wp_affiliate_wp_referrals","wp_affiliate_wp_rest_consumers","wp_affiliate_wp_sales","wp_affiliate_wp_visits","wp_datalist","wp_facetwp_index","wp_hc_hmw_short_code","wp_layerslider","wp_redirection_404","wp_redirection_groups","wp_redirection_items","wp_redirection_logs","wp_revslider_css","wp_revslider_layer_animations","wp_revslider_navigations","wp_revslider_sliders","wp_revslider_slides","wp_revslider_static_slides","wp_wc_admin_note_actions","wp_wc_admin_notes","wp_wc_cancel_orders","wp_wc_customer_lookup","wp_wc_download_log","wp_wc_order_coupon_lookup","wp_wc_order_product_lookup","wp_wc_order_stats","wp_wc_order_tax_lookup","wp_wc_webhooks","wp_wcpdf_invoice_number","wp_woocommerce_api_keys","wp_woocommerce_attribute_taxonomies","wp_woocommerce_downloadable_product_permissions","wp_woocommerce_log","wp_woocommerce_order_items","wp_woocommerce_payment_tokens","wp_woocommerce_sessions","wp_woocommerce_shipping_zone_locations","wp_woocommerce_shipping_zone_methods","wp_woocommerce_shipping_zones","wp_woocommerce_tax_rate_locations","wp_woocommerce_tax_rates","wp_wsal_metadata","wp_wsal_occurrences","wp_wsal_options","wp_wt_abandonment_coupon","wp_yoast_indexable","wp_yoast_indexable_hierarchy","wp_yoast_migrations","wp_yoast_primary_term","wp_yoast_seo_links","wp_yoast_seo_meta"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.012 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.013 () Entity: db
+0000.013 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-db.gz, type=db, info=a:0:{}, last_one=)
+0000.013 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-db.gz, 22.4 Mb)
+0000.048 () Database successfully unpacked
+0000.048 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.048 () Using direct MySQL access; value of use_mysqli is: 1
+0000.049 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.062 () Max packet size: 32 MB
+0000.062 () Entering maintenance mode
+0000.062 () Activando el modo mantenimiento&#8230;
+0000.072 () Backup of: https://www.theclassyoga.com
+0000.077 () Content URL: https://www.theclassyoga.com/wp-content
+0000.077 () Uploads URL: https://www.theclassyoga.com/wp-content/uploads
+0000.077 () Old table prefix: wp_
+0000.077 () Site information: multisite=0
+0000.077 () Site information: sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.078 () New table prefix: kl_
+0000.080 () Processing table (MyISAM): wp_options - will restore as: kl_options
+0000.145 () Atomic restore: dropping original table (wp_options)
+0000.147 () Atomic restore: renaming new table (kl_options) to final table name (wp_options)
+0000.147 () Restoring prior UD configuration (table: wp_options; keys: 98)
+0000.204 () Processing table (MyISAM): wp_users - will restore as: kl_users
+0000.546 () Atomic restore: dropping original table (wp_users)
+0000.548 () Atomic restore: renaming new table (kl_users) to final table name (wp_users)
+0000.549 () Processing table (MyISAM): wp_usermeta - will restore as: kl_usermeta
+0001.883 () Database queries processed: 50 in 1.83 seconds
+0006.428 () Database queries processed: 100 in 6.38 seconds
+0011.366 () Database queries processed: 150 in 11.32 seconds
+0016.302 () Database queries processed: 200 in 16.25 seconds
+0021.452 () Database queries processed: 250 in 21.40 seconds
+0032.102 () PHP event: code E_WARNING: Error while sending QUERY packet. PID=10196 (line 2056, wp-includes/wp-db.php)
+0032.103 () Atomic restore: dropping original table (wp_usermeta)
+0032.106 () Atomic restore: renaming new table (kl_usermeta) to final table name (wp_usermeta)
+0032.106 () Processing table (MyISAM): wp_actionscheduler_actions - will restore as: kl_actionscheduler_actions
+0034.809 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0034.809 () Atomic restore: renaming new table (kl_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0034.810 () Processing table (MyISAM): wp_actionscheduler_claims - will restore as: kl_actionscheduler_claims
+0034.823 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0034.823 () Atomic restore: renaming new table (kl_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0034.824 () Processing table (MyISAM): wp_actionscheduler_groups - will restore as: kl_actionscheduler_groups
+0034.826 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0034.826 () Atomic restore: renaming new table (kl_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0034.827 () Processing table (MyISAM): wp_actionscheduler_logs - will restore as: kl_actionscheduler_logs
+0035.205 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0035.205 () Atomic restore: renaming new table (kl_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0035.206 () Processing table (MyISAM): wp_commentmeta - will restore as: kl_commentmeta
+0036.686 () Atomic restore: dropping original table (wp_commentmeta)
+0036.688 () Atomic restore: renaming new table (kl_commentmeta) to final table name (wp_commentmeta)
+0036.688 () Processing table (MyISAM): wp_comments - will restore as: kl_comments
+0041.303 () Database queries processed: 500 in 41.25 seconds
+0044.964 () Atomic restore: dropping original table (wp_comments)
+0044.966 () Atomic restore: renaming new table (kl_comments) to final table name (wp_comments)
+0044.966 () Processing table (MyISAM): wp_imagify_files - will restore as: kl_imagify_files
+0044.994 () Atomic restore: dropping original table (wp_imagify_files)
+0044.995 () Atomic restore: renaming new table (kl_imagify_files) to final table name (wp_imagify_files)
+0044.995 () Processing table (MyISAM): wp_imagify_folders - will restore as: kl_imagify_folders
+0044.997 () Atomic restore: dropping original table (wp_imagify_folders)
+0044.997 () Atomic restore: renaming new table (kl_imagify_folders) to final table name (wp_imagify_folders)
+0044.997 () Processing table (MyISAM): wp_links - will restore as: kl_links
+0044.999 () Atomic restore: dropping original table (wp_links)
+0045.001 () Atomic restore: renaming new table (kl_links) to final table name (wp_links)
+0045.002 () Processing table (MyISAM): wp_postmeta - will restore as: kl_postmeta
+0063.870 () Database queries processed: 750 in 63.82 seconds
+0091.428 () Database queries processed: 1000 in 91.38 seconds
+0120.477 () Database queries processed: 1250 in 120.43 seconds
+0146.245 () PHP event: code E_WARNING: Error while sending QUERY packet. PID=10196 (line 2056, wp-includes/wp-db.php)
+0146.246 () Atomic restore: dropping original table (wp_postmeta)
+0146.249 () Atomic restore: renaming new table (kl_postmeta) to final table name (wp_postmeta)
+0146.249 () Processing table (MyISAM): wp_posts - will restore as: kl_posts
+0147.704 () Database queries processed: 1500 in 147.65 seconds
+0147.955 () Atomic restore: dropping original table (wp_posts)
+0147.957 () Atomic restore: renaming new table (kl_posts) to final table name (wp_posts)
+0147.957 () Processing table (MyISAM): wp_searchwp_index - will restore as: kl_searchwp_index
+0149.187 () Atomic restore: dropping original table (wp_searchwp_index)
+0149.187 () Atomic restore: renaming new table (kl_searchwp_index) to final table name (wp_searchwp_index)
+0149.187 () Processing table (MyISAM): wp_searchwp_log - will restore as: kl_searchwp_log
+0149.197 () Atomic restore: dropping original table (wp_searchwp_log)
+0149.198 () Atomic restore: renaming new table (kl_searchwp_log) to final table name (wp_searchwp_log)
+0149.198 () Processing table (MyISAM): wp_searchwp_status - will restore as: kl_searchwp_status
+0149.201 () Atomic restore: dropping original table (wp_searchwp_status)
+0149.202 () Atomic restore: renaming new table (kl_searchwp_status) to final table name (wp_searchwp_status)
+0149.202 () Processing table (MyISAM): wp_searchwp_tokens - will restore as: kl_searchwp_tokens
+0149.222 () Atomic restore: dropping original table (wp_searchwp_tokens)
+0149.222 () Atomic restore: renaming new table (kl_searchwp_tokens) to final table name (wp_searchwp_tokens)
+0149.222 () Processing table (MyISAM): wp_term_relationships - will restore as: kl_term_relationships
+0149.225 () Atomic restore: dropping original table (wp_term_relationships)
+0149.227 () Atomic restore: renaming new table (kl_term_relationships) to final table name (wp_term_relationships)
+0149.227 () Processing table (MyISAM): wp_term_taxonomy - will restore as: kl_term_taxonomy
+0149.231 () Atomic restore: dropping original table (wp_term_taxonomy)
+0149.232 () Atomic restore: renaming new table (kl_term_taxonomy) to final table name (wp_term_taxonomy)
+0149.232 () Processing table (MyISAM): wp_termmeta - will restore as: kl_termmeta
+0149.235 () Atomic restore: dropping original table (wp_termmeta)
+0149.238 () Atomic restore: renaming new table (kl_termmeta) to final table name (wp_termmeta)
+0149.238 () Processing table (MyISAM): wp_terms - will restore as: kl_terms
+0149.244 () Atomic restore: dropping original table (wp_terms)
+0149.246 () Atomic restore: renaming new table (kl_terms) to final table name (wp_terms)
+0149.247 () Processing table (MyISAM): wp_wc_category_lookup - will restore as: kl_wc_category_lookup
+0149.250 () Atomic restore: dropping original table (wp_wc_category_lookup)
+0149.250 () Atomic restore: renaming new table (kl_wc_category_lookup) to final table name (wp_wc_category_lookup)
+0149.250 () Processing table (MyISAM): wp_wc_product_meta_lookup - will restore as: kl_wc_product_meta_lookup
+0149.253 () Atomic restore: dropping original table (wp_wc_product_meta_lookup)
+0149.253 () Atomic restore: renaming new table (kl_wc_product_meta_lookup) to final table name (wp_wc_product_meta_lookup)
+0149.253 () Processing table (MyISAM): wp_wc_reserved_stock - will restore as: kl_wc_reserved_stock
+0149.255 () Atomic restore: dropping original table (wp_wc_reserved_stock)
+0149.256 () Atomic restore: renaming new table (kl_wc_reserved_stock) to final table name (wp_wc_reserved_stock)
+0149.256 () Processing table (MyISAM): wp_wc_tax_rate_classes - will restore as: kl_wc_tax_rate_classes
+0149.258 () Atomic restore: dropping original table (wp_wc_tax_rate_classes)
+0149.259 () Atomic restore: renaming new table (kl_wc_tax_rate_classes) to final table name (wp_wc_tax_rate_classes)
+0149.259 () Processing table (MyISAM): wp_wcs_payment_retries - will restore as: kl_wcs_payment_retries
+0149.275 () Atomic restore: dropping original table (wp_wcs_payment_retries)
+0149.275 () Atomic restore: renaming new table (kl_wcs_payment_retries) to final table name (wp_wcs_payment_retries)
+0149.276 () Processing table (MyISAM): wp_woocommerce_order_itemmeta - will restore as: kl_woocommerce_order_itemmeta
+0155.451 () Database queries processed: 1750 in 155.40 seconds
+0155.515 () Atomic restore: dropping original table (wp_woocommerce_order_itemmeta)
+0155.516 () Atomic restore: renaming new table (kl_woocommerce_order_itemmeta) to final table name (wp_woocommerce_order_itemmeta)
+0155.516 () Processing table (MyISAM): wp_woocommerce_payment_tokenmeta - will restore as: kl_woocommerce_payment_tokenmeta
+0155.778 () Atomic restore: dropping original table (wp_woocommerce_payment_tokenmeta)
+0155.778 () Atomic restore: renaming new table (kl_woocommerce_payment_tokenmeta) to final table name (wp_woocommerce_payment_tokenmeta)
+0155.778 () Processing table (MyISAM): wp_affiliate_wp_affiliatemeta - will restore as: kl_affiliate_wp_affiliatemeta
+0155.783 () Atomic restore: dropping original table (wp_affiliate_wp_affiliatemeta)
+0155.784 () Atomic restore: renaming new table (kl_affiliate_wp_affiliatemeta) to final table name (wp_affiliate_wp_affiliatemeta)
+0155.784 () Processing table (MyISAM): wp_affiliate_wp_affiliates - will restore as: kl_affiliate_wp_affiliates
+0155.916 () Atomic restore: dropping original table (wp_affiliate_wp_affiliates)
+0155.916 () Atomic restore: renaming new table (kl_affiliate_wp_affiliates) to final table name (wp_affiliate_wp_affiliates)
+0155.916 () Processing table (MyISAM): wp_affiliate_wp_coupons - will restore as: kl_affiliate_wp_coupons
+0156.007 () Atomic restore: dropping original table (wp_affiliate_wp_coupons)
+0156.007 () Atomic restore: renaming new table (kl_affiliate_wp_coupons) to final table name (wp_affiliate_wp_coupons)
+0156.007 () Processing table (MyISAM): wp_affiliate_wp_creatives - will restore as: kl_affiliate_wp_creatives
+0156.016 () Atomic restore: dropping original table (wp_affiliate_wp_creatives)
+0156.016 () Atomic restore: renaming new table (kl_affiliate_wp_creatives) to final table name (wp_affiliate_wp_creatives)
+0156.016 () Processing table (MyISAM): wp_affiliate_wp_customermeta - will restore as: kl_affiliate_wp_customermeta
+0156.019 () Atomic restore: dropping original table (wp_affiliate_wp_customermeta)
+0156.019 () Atomic restore: renaming new table (kl_affiliate_wp_customermeta) to final table name (wp_affiliate_wp_customermeta)
+0156.019 () Processing table (MyISAM): wp_affiliate_wp_customers - will restore as: kl_affiliate_wp_customers
+0156.022 () Atomic restore: dropping original table (wp_affiliate_wp_customers)
+0156.022 () Atomic restore: renaming new table (kl_affiliate_wp_customers) to final table name (wp_affiliate_wp_customers)
+0156.022 () Processing table (MyISAM): wp_affiliate_wp_payouts - will restore as: kl_affiliate_wp_payouts
+0156.024 () Atomic restore: dropping original table (wp_affiliate_wp_payouts)
+0156.025 () Atomic restore: renaming new table (kl_affiliate_wp_payouts) to final table name (wp_affiliate_wp_payouts)
+0156.025 () Processing table (MyISAM): wp_affiliate_wp_referralmeta - will restore as: kl_affiliate_wp_referralmeta
+0156.027 () Atomic restore: dropping original table (wp_affiliate_wp_referralmeta)
+0156.027 () Atomic restore: renaming new table (kl_affiliate_wp_referralmeta) to final table name (wp_affiliate_wp_referralmeta)
+0156.027 () Processing table (MyISAM): wp_affiliate_wp_referrals - will restore as: kl_affiliate_wp_referrals
+0156.030 () Atomic restore: dropping original table (wp_affiliate_wp_referrals)
+0156.030 () Atomic restore: renaming new table (kl_affiliate_wp_referrals) to final table name (wp_affiliate_wp_referrals)
+0156.031 () Processing table (MyISAM): wp_affiliate_wp_rest_consumers - will restore as: kl_affiliate_wp_rest_consumers
+0156.033 () Atomic restore: dropping original table (wp_affiliate_wp_rest_consumers)
+0156.033 () Atomic restore: renaming new table (kl_affiliate_wp_rest_consumers) to final table name (wp_affiliate_wp_rest_consumers)
+0156.033 () Processing table (MyISAM): wp_affiliate_wp_sales - will restore as: kl_affiliate_wp_sales
+0156.035 () Atomic restore: dropping original table (wp_affiliate_wp_sales)
+0156.035 () Atomic restore: renaming new table (kl_affiliate_wp_sales) to final table name (wp_affiliate_wp_sales)
+0156.036 () Processing table (MyISAM): wp_affiliate_wp_visits - will restore as: kl_affiliate_wp_visits
+0156.052 () Atomic restore: dropping original table (wp_affiliate_wp_visits)
+0156.052 () Atomic restore: renaming new table (kl_affiliate_wp_visits) to final table name (wp_affiliate_wp_visits)
+0156.053 () Processing table (MyISAM): wp_datalist - will restore as: kl_datalist
+0156.055 () Atomic restore: dropping original table (wp_datalist)
+0156.055 () Atomic restore: renaming new table (kl_datalist) to final table name (wp_datalist)
+0156.055 () Processing table (MyISAM): wp_facetwp_index - will restore as: kl_facetwp_index
+0156.141 () Atomic restore: dropping original table (wp_facetwp_index)
+0156.141 () Atomic restore: renaming new table (kl_facetwp_index) to final table name (wp_facetwp_index)
+0156.141 () Processing table (InnoDB): wp_hc_hmw_short_code - will restore as: kl_hc_hmw_short_code
+0156.147 () Atomic restore: dropping original table (wp_hc_hmw_short_code)
+0156.148 () Atomic restore: renaming new table (kl_hc_hmw_short_code) to final table name (wp_hc_hmw_short_code)
+0156.149 () Processing table (InnoDB): wp_layerslider - will restore as: kl_layerslider
+0156.153 () Atomic restore: dropping original table (wp_layerslider)
+0156.153 () Atomic restore: renaming new table (kl_layerslider) to final table name (wp_layerslider)
+0156.155 () Processing table (InnoDB): wp_redirection_404 - will restore as: kl_redirection_404
+0156.280 () Atomic restore: dropping original table (wp_redirection_404)
+0156.281 () Atomic restore: renaming new table (kl_redirection_404) to final table name (wp_redirection_404)
+0156.282 () Processing table (InnoDB): wp_redirection_groups - will restore as: kl_redirection_groups
+0156.288 () Atomic restore: dropping original table (wp_redirection_groups)
+0156.288 () Atomic restore: renaming new table (kl_redirection_groups) to final table name (wp_redirection_groups)
+0156.290 () Processing table (InnoDB): wp_redirection_items - will restore as: kl_redirection_items
+0156.298 () Atomic restore: dropping original table (wp_redirection_items)
+0156.298 () Atomic restore: renaming new table (kl_redirection_items) to final table name (wp_redirection_items)
+0156.300 () Processing table (InnoDB): wp_redirection_logs - will restore as: kl_redirection_logs
+0156.307 () Atomic restore: dropping original table (wp_redirection_logs)
+0156.307 () Atomic restore: renaming new table (kl_redirection_logs) to final table name (wp_redirection_logs)
+0156.308 () Processing table (InnoDB): wp_revslider_css - will restore as: kl_revslider_css
+0156.318 () Atomic restore: dropping original table (wp_revslider_css)
+0156.319 () Atomic restore: renaming new table (kl_revslider_css) to final table name (wp_revslider_css)
+0156.320 () Processing table (InnoDB): wp_revslider_layer_animations - will restore as: kl_revslider_layer_animations
+0156.325 () Atomic restore: dropping original table (wp_revslider_layer_animations)
+0156.325 () Atomic restore: renaming new table (kl_revslider_layer_animations) to final table name (wp_revslider_layer_animations)
+0156.326 () Processing table (InnoDB): wp_revslider_navigations - will restore as: kl_revslider_navigations
+0156.331 () Atomic restore: dropping original table (wp_revslider_navigations)
+0156.331 () Atomic restore: renaming new table (kl_revslider_navigations) to final table name (wp_revslider_navigations)
+0156.333 () Processing table (InnoDB): wp_revslider_sliders - will restore as: kl_revslider_sliders
+0156.338 () Atomic restore: dropping original table (wp_revslider_sliders)
+0156.338 () Atomic restore: renaming new table (kl_revslider_sliders) to final table name (wp_revslider_sliders)
+0156.340 () Processing table (InnoDB): wp_revslider_slides - will restore as: kl_revslider_slides
+0156.344 () Atomic restore: dropping original table (wp_revslider_slides)
+0156.344 () Atomic restore: renaming new table (kl_revslider_slides) to final table name (wp_revslider_slides)
+0156.346 () Processing table (InnoDB): wp_revslider_static_slides - will restore as: kl_revslider_static_slides
+0156.351 () Atomic restore: dropping original table (wp_revslider_static_slides)
+0156.351 () Atomic restore: renaming new table (kl_revslider_static_slides) to final table name (wp_revslider_static_slides)
+0156.352 () Processing table (MyISAM): wp_wc_admin_note_actions - will restore as: kl_wc_admin_note_actions
+0156.356 () Atomic restore: dropping original table (wp_wc_admin_note_actions)
+0156.356 () Atomic restore: renaming new table (kl_wc_admin_note_actions) to final table name (wp_wc_admin_note_actions)
+0156.356 () Processing table (MyISAM): wp_wc_admin_notes - will restore as: kl_wc_admin_notes
+0156.359 () Atomic restore: dropping original table (wp_wc_admin_notes)
+0156.359 () Atomic restore: renaming new table (kl_wc_admin_notes) to final table name (wp_wc_admin_notes)
+0156.359 () Processing table (InnoDB): wp_wc_cancel_orders - will restore as: kl_wc_cancel_orders
+0156.364 () Atomic restore: dropping original table (wp_wc_cancel_orders)
+0156.364 () Atomic restore: renaming new table (kl_wc_cancel_orders) to final table name (wp_wc_cancel_orders)
+0156.366 () Processing table (MyISAM): wp_wc_customer_lookup - will restore as: kl_wc_customer_lookup
+0156.499 () Atomic restore: dropping original table (wp_wc_customer_lookup)
+0156.500 () Atomic restore: renaming new table (kl_wc_customer_lookup) to final table name (wp_wc_customer_lookup)
+0156.500 () Processing table (MyISAM): wp_wc_download_log - will restore as: kl_wc_download_log
+0156.510 () Atomic restore: dropping original table (wp_wc_download_log)
+0156.510 () Atomic restore: renaming new table (kl_wc_download_log) to final table name (wp_wc_download_log)
+0156.511 () Processing table (MyISAM): wp_wc_order_coupon_lookup - will restore as: kl_wc_order_coupon_lookup
+0156.520 () Atomic restore: dropping original table (wp_wc_order_coupon_lookup)
+0156.520 () Atomic restore: renaming new table (kl_wc_order_coupon_lookup) to final table name (wp_wc_order_coupon_lookup)
+0156.520 () Processing table (MyISAM): wp_wc_order_product_lookup - will restore as: kl_wc_order_product_lookup
+0156.659 () Atomic restore: dropping original table (wp_wc_order_product_lookup)
+0156.659 () Atomic restore: renaming new table (kl_wc_order_product_lookup) to final table name (wp_wc_order_product_lookup)
+0156.659 () Processing table (MyISAM): wp_wc_order_stats - will restore as: kl_wc_order_stats
+0158.610 () Atomic restore: dropping original table (wp_wc_order_stats)
+0158.610 () Atomic restore: renaming new table (kl_wc_order_stats) to final table name (wp_wc_order_stats)
+0158.611 () Processing table (MyISAM): wp_wc_order_tax_lookup - will restore as: kl_wc_order_tax_lookup
+0158.696 () Atomic restore: dropping original table (wp_wc_order_tax_lookup)
+0158.696 () Atomic restore: renaming new table (kl_wc_order_tax_lookup) to final table name (wp_wc_order_tax_lookup)
+0158.697 () Processing table (MyISAM): wp_wc_webhooks - will restore as: kl_wc_webhooks
+0158.702 () Atomic restore: dropping original table (wp_wc_webhooks)
+0158.702 () Atomic restore: renaming new table (kl_wc_webhooks) to final table name (wp_wc_webhooks)
+0158.702 () Processing table (MyISAM): wp_wcpdf_invoice_number - will restore as: kl_wcpdf_invoice_number
+0158.704 () Atomic restore: dropping original table (wp_wcpdf_invoice_number)
+0158.704 () Atomic restore: renaming new table (kl_wcpdf_invoice_number) to final table name (wp_wcpdf_invoice_number)
+0158.705 () Processing table (MyISAM): wp_woocommerce_api_keys - will restore as: kl_woocommerce_api_keys
+0158.707 () Atomic restore: dropping original table (wp_woocommerce_api_keys)
+0158.707 () Atomic restore: renaming new table (kl_woocommerce_api_keys) to final table name (wp_woocommerce_api_keys)
+0158.707 () Processing table (MyISAM): wp_woocommerce_attribute_taxonomies - will restore as: kl_woocommerce_attribute_taxonomies
+0158.709 () Atomic restore: dropping original table (wp_woocommerce_attribute_taxonomies)
+0158.709 () Atomic restore: renaming new table (kl_woocommerce_attribute_taxonomies) to final table name (wp_woocommerce_attribute_taxonomies)
+0158.709 () Processing table (MyISAM): wp_woocommerce_downloadable_product_permissions - will restore as: kl_woocommerce_downloadable_product_permissions
+0158.711 () Atomic restore: dropping original table (wp_woocommerce_downloadable_product_permissions)
+0158.711 () Atomic restore: renaming new table (kl_woocommerce_downloadable_product_permissions) to final table name (wp_woocommerce_downloadable_product_permissions)
+0158.712 () Processing table (MyISAM): wp_woocommerce_log - will restore as: kl_woocommerce_log
+0158.713 () Atomic restore: dropping original table (wp_woocommerce_log)
+0158.714 () Atomic restore: renaming new table (kl_woocommerce_log) to final table name (wp_woocommerce_log)
+0158.714 () Processing table (MyISAM): wp_woocommerce_order_items - will restore as: kl_woocommerce_order_items
+0158.852 () Atomic restore: dropping original table (wp_woocommerce_order_items)
+0158.852 () Atomic restore: renaming new table (kl_woocommerce_order_items) to final table name (wp_woocommerce_order_items)
+0158.852 () Processing table (MyISAM): wp_woocommerce_payment_tokens - will restore as: kl_woocommerce_payment_tokens
+0158.879 () Atomic restore: dropping original table (wp_woocommerce_payment_tokens)
+0158.879 () Atomic restore: renaming new table (kl_woocommerce_payment_tokens) to final table name (wp_woocommerce_payment_tokens)
+0158.879 () Processing table (MyISAM): wp_woocommerce_sessions - will restore as: kl_woocommerce_sessions
+0159.020 () Atomic restore: dropping original table (wp_woocommerce_sessions)
+0159.020 () Database queries processed: 2000 in 158.97 seconds
+0159.020 () Atomic restore: renaming new table (kl_woocommerce_sessions) to final table name (wp_woocommerce_sessions)
+0159.020 () Processing table (MyISAM): wp_woocommerce_shipping_zone_locations - will restore as: kl_woocommerce_shipping_zone_locations
+0159.035 () Atomic restore: dropping original table (wp_woocommerce_shipping_zone_locations)
+0159.036 () Atomic restore: renaming new table (kl_woocommerce_shipping_zone_locations) to final table name (wp_woocommerce_shipping_zone_locations)
+0159.036 () Processing table (MyISAM): wp_woocommerce_shipping_zone_methods - will restore as: kl_woocommerce_shipping_zone_methods
+0159.038 () Atomic restore: dropping original table (wp_woocommerce_shipping_zone_methods)
+0159.038 () Atomic restore: renaming new table (kl_woocommerce_shipping_zone_methods) to final table name (wp_woocommerce_shipping_zone_methods)
+0159.039 () Processing table (MyISAM): wp_woocommerce_shipping_zones - will restore as: kl_woocommerce_shipping_zones
+0159.040 () Atomic restore: dropping original table (wp_woocommerce_shipping_zones)
+0159.040 () Atomic restore: renaming new table (kl_woocommerce_shipping_zones) to final table name (wp_woocommerce_shipping_zones)
+0159.041 () Processing table (MyISAM): wp_woocommerce_tax_rate_locations - will restore as: kl_woocommerce_tax_rate_locations
+0159.042 () Atomic restore: dropping original table (wp_woocommerce_tax_rate_locations)
+0159.043 () Atomic restore: renaming new table (kl_woocommerce_tax_rate_locations) to final table name (wp_woocommerce_tax_rate_locations)
+0159.043 () Processing table (MyISAM): wp_woocommerce_tax_rates - will restore as: kl_woocommerce_tax_rates
+0159.045 () Atomic restore: dropping original table (wp_woocommerce_tax_rates)
+0159.045 () Atomic restore: renaming new table (kl_woocommerce_tax_rates) to final table name (wp_woocommerce_tax_rates)
+0159.045 () Processing table (MyISAM): wp_wsal_metadata - will restore as: kl_wsal_metadata
+0161.439 () Atomic restore: dropping original table (wp_wsal_metadata)
+0161.439 () Atomic restore: renaming new table (kl_wsal_metadata) to final table name (wp_wsal_metadata)
+0161.439 () Processing table (MyISAM): wp_wsal_occurrences - will restore as: kl_wsal_occurrences
+0161.470 () Atomic restore: dropping original table (wp_wsal_occurrences)
+0161.470 () Atomic restore: renaming new table (kl_wsal_occurrences) to final table name (wp_wsal_occurrences)
+0161.471 () Processing table (MyISAM): wp_wsal_options - will restore as: kl_wsal_options
+0161.504 () Atomic restore: dropping original table (wp_wsal_options)
+0161.505 () Atomic restore: renaming new table (kl_wsal_options) to final table name (wp_wsal_options)
+0161.505 () Processing table (MyISAM): wp_wt_abandonment_coupon - will restore as: kl_wt_abandonment_coupon
+0161.523 () Atomic restore: dropping original table (wp_wt_abandonment_coupon)
+0161.523 () Atomic restore: renaming new table (kl_wt_abandonment_coupon) to final table name (wp_wt_abandonment_coupon)
+0161.523 () Processing table (MyISAM): wp_yoast_indexable - will restore as: kl_yoast_indexable
+0166.845 () Atomic restore: dropping original table (wp_yoast_indexable)
+0166.846 () Atomic restore: renaming new table (kl_yoast_indexable) to final table name (wp_yoast_indexable)
+0166.846 () Processing table (MyISAM): wp_yoast_indexable_hierarchy - will restore as: kl_yoast_indexable_hierarchy
+0166.910 () Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+0166.910 () Atomic restore: renaming new table (kl_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+0166.910 () Processing table (MyISAM): wp_yoast_migrations - will restore as: kl_yoast_migrations
+0166.915 () Atomic restore: dropping original table (wp_yoast_migrations)
+0166.915 () Atomic restore: renaming new table (kl_yoast_migrations) to final table name (wp_yoast_migrations)
+0166.915 () Processing table (MyISAM): wp_yoast_primary_term - will restore as: kl_yoast_primary_term
+0166.917 () Atomic restore: dropping original table (wp_yoast_primary_term)
+0166.918 () Atomic restore: renaming new table (kl_yoast_primary_term) to final table name (wp_yoast_primary_term)
+0166.918 () Processing table (MyISAM): wp_yoast_seo_links - will restore as: kl_yoast_seo_links
+0166.937 () Atomic restore: dropping original table (wp_yoast_seo_links)
+0166.938 () Atomic restore: renaming new table (kl_yoast_seo_links) to final table name (wp_yoast_seo_links)
+0166.938 () Processing table (MyISAM): wp_yoast_seo_meta - will restore as: kl_yoast_seo_meta
+0166.948 () Unlocking database and leaving maintenance mode
+0166.948 () Desactivando el modo de mantenimiento&#8230;
+0166.948 () Atomic restore: dropping original table (wp_yoast_seo_meta)
+0166.948 () Atomic restore: renaming new table (kl_yoast_seo_meta) to final table name (wp_yoast_seo_meta)
+0166.949 () Finished: lines processed: 2124 in 166.90 seconds
+0166.951 () Cleaning up rubbish...
+0166.956 () Entity: plugins
+0166.956 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0166.957 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-plugins.zip, 25.8 MB)
+0166.959 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-plugins.zip to /www/theclassmove_607/public/wp-content/upgrade/f97c110e/ using UpdraftPlus_ZipArchive, starting index 0
+0167.581 () Unzip progress: 1708 out of 7118 files (21.5 KB, plugins/affiliate-wp-recurring-referrals/admin/affiliates.php)
+0167.821 () Unzip progress: 2709 out of 7118 files (14.5 MB, plugins/advanced-custom-fields-pro/includes/fields/class-acf-field.php)
+0168.027 () Unzip progress: 3710 out of 7118 files (24.4 MB, plugins/wordpress-seo/js/dist/select2/i18n/he.js)
+0168.260 () Unzip progress: 4711 out of 7118 files (35.8 MB, plugins/affiliate-wp/includes/integrations/extras/caldera-forms-config.php)
+0168.715 () Unzip progress: 5712 out of 7118 files (74.6 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/S3/Exception/ObjectAlreadyInActiveTierErrorException.php)
+0168.932 () Unzip progress: 6713 out of 7118 files (82.3 MB, plugins/woocommerce-subscriptions/assets/js/admin/wcs-meta-boxes-order.js)
+0169.016 () Unzip progress: 7118 out of 7118 files (86.5 MB, plugins/woocommerce/assets/css/admin-rtl.css)
+0169.019 () Moving old data: filesystem method / updraft_dir is potentially possible
+0169.019 () Moving old data: can potentially use wp_filesystem method / -old
+0169.019 () Moving old data out of the way...
+0169.499 () Top-level entities being moved: hello.php, index.php, akismet, updraftplus
+0169.500 () Moving unpacked backup into place...
+0171.997 () Top-level entities being moved: users-by-date-registered, woocommerce, customer-import-export-for-woocommerce, woocommerce-gateway-stripe, affiliate-wp, imagify, advanced-custom-fields, members, woocommerce-subscriptions, wordpress-seo, searchwp, advanced-custom-fields-pro, classic-editor, updraftplus, post-type-switcher, better-search-replace, affiliate-wp-recurring-referrals, wordpress-importer, order-import-export-for-woocommerce-pro, acf-content-analysis-for-yoast-seo, wps-hide-login, loco-translate, clear-cache-for-widgets, facetwp, velvet-blues-update-urls, affiliatewp-affiliate-area-tabs, wp-user-avatar, health-check, post-duplicator, index.php, metorik-helper, woocommerce-memberships, redirection, woocommerce-quaderno, user-switching
+0172.006 () Cleaning up rubbish...
+0172.007 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-plugins2.zip, type=plugins, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0172.007 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-plugins2.zip, 13.6 MB)
+0172.007 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-plugins2.zip to /www/theclassmove_607/public/wp-content/upgrade/fd05dd73/ using UpdraftPlus_ZipArchive, starting index 0
+0172.550 () Unzip progress: 1002 out of 4250 files (13.5 MB, plugins/woocommerce/packages/woocommerce-admin/dist/chunks/49.e78eb9119c8eac3f6923.js)
+0172.807 () Unzip progress: 2003 out of 4250 files (20.3 MB, plugins/woocommerce/packages/woocommerce-blocks/assets/js/data/cart/reducers.js)
+0173.024 () Unzip progress: 3004 out of 4250 files (27.1 MB, plugins/woocommerce-memberships/assets/css/frontend/wc-memberships-profile-fields.min.css)
+0173.307 () Unzip progress: 4005 out of 4250 files (43 MB, plugins/imagify/inc/admin/upgrader.php)
+0173.353 () Unzip progress: 4250 out of 4250 files (44.1 MB, plugins/imagify/uninstall.php)
+0173.355 () Moving unpacked backup into place...
+0175.102 () Top-level entities being moved: searchwp, woocommerce, imagify, woocommerce-memberships
+0175.841 () Cleaning up rubbish...
+0175.843 () Entity: themes
+0175.843 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes.zip, type=themes, info=a:2:{s:4:"path";s:46:"/www/theclassmove_607/public/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0175.843 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes.zip, 33.8 MB)
+0175.844 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes.zip to /www/theclassmove_607/public/wp-content/upgrade/aad1fcb4/ using UpdraftPlus_ZipArchive, starting index 0
+0176.387 () Unzip progress: 1002 out of 1818 files (15.7 MB, themes/santorotheme/css/fontawesome/svgs/solid/phone-alt.svg)
+0177.414 () Unzip progress: 1818 out of 1818 files (62.5 MB, themes/santorotheme/img/clase-yoga-sira.psd)
+0177.416 () Moving old data: filesystem method / updraft_dir is potentially possible
+0177.416 () Moving old data: can potentially use wp_filesystem method / -old
+0177.416 () Moving old data out of the way...
+0177.516 () Top-level entities being moved: twentytwentyone, twentynineteen, twentytwenty, index.php
+0177.517 () Moving unpacked backup into place...
+0178.060 () Top-level entities being moved: santorotheme, index.php, twentytwenty
+0178.061 () Cleaning up rubbish...
+0178.062 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes2.zip, type=themes, info=a:2:{s:4:"path";s:46:"/www/theclassmove_607/public/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0178.063 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes2.zip, 25.2 MB)
+0178.063 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes2.zip to /www/theclassmove_607/public/wp-content/upgrade/4745d268/ using UpdraftPlus_ZipArchive, starting index 0
+0178.766 () Unzip progress: 16 out of 16 files (31.1 MB, themes/santorotheme/img/clase-yoga-directo-francesca.psd)
+0178.768 () Moving unpacked backup into place...
+0178.773 () Top-level entities being moved: santorotheme
+0178.775 () Cleaning up rubbish...
+0178.776 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes3.zip, type=themes, info=a:2:{s:4:"path";s:46:"/www/theclassmove_607/public/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0178.776 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes3.zip, 28.2 MB)
+0178.777 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes3.zip to /www/theclassmove_607/public/wp-content/upgrade/dca2e43b/ using UpdraftPlus_ZipArchive, starting index 0
+0179.690 () Unzip progress: 8 out of 8 files (38 MB, themes/santorotheme/img/clase-yoga-marina.psd)
+0179.692 () Moving unpacked backup into place...
+0179.694 () Top-level entities being moved: santorotheme
+0179.696 () Cleaning up rubbish...
+0179.697 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes4.zip, type=themes, info=a:2:{s:4:"path";s:46:"/www/theclassmove_607/public/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0179.697 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes4.zip, 31.8 MB)
+0179.697 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes4.zip to /www/theclassmove_607/public/wp-content/upgrade/af78f670/ using UpdraftPlus_ZipArchive, starting index 0
+0180.617 () Unzip progress: 38 out of 38 files (41.2 MB, themes/santorotheme/img/clase-yoga-perla.psd)
+0180.619 () Moving unpacked backup into place...
+0180.631 () Top-level entities being moved: santorotheme
+0180.637 () Cleaning up rubbish...
+0180.639 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes5.zip, type=themes, info=a:2:{s:4:"path";s:46:"/www/theclassmove_607/public/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0180.639 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes5.zip, 29.9 MB)
+0180.640 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes5.zip to /www/theclassmove_607/public/wp-content/upgrade/4e111a4a/ using UpdraftPlus_ZipArchive, starting index 0
+0181.594 () Unzip progress: 12 out of 12 files (40.5 MB, themes/santorotheme/img/clase-yoga-sofia.psd)
+0181.595 () Moving unpacked backup into place...
+0181.599 () Top-level entities being moved: santorotheme
+0181.601 () Cleaning up rubbish...
+0181.602 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes6.zip, type=themes, info=a:2:{s:4:"path";s:46:"/www/theclassmove_607/public/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0181.602 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes6.zip, 24.9 MB)
+0181.603 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes6.zip to /www/theclassmove_607/public/wp-content/upgrade/97901795/ using UpdraftPlus_ZipArchive, starting index 0
+0182.371 () Unzip progress: 51 out of 51 files (31.8 MB, themes/santorotheme/img/luis-rivero-bio.jpg)
+0182.372 () Moving unpacked backup into place...
+0182.390 () Top-level entities being moved: santorotheme, twentytwenty
+0182.400 () Cleaning up rubbish...
+0182.401 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes7.zip, type=themes, info=a:2:{s:4:"path";s:46:"/www/theclassmove_607/public/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0182.401 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes7.zip, 12.4 MB)
+0182.402 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-themes7.zip to /www/theclassmove_607/public/wp-content/upgrade/0af6fdf6/ using UpdraftPlus_ZipArchive, starting index 0
+0182.817 () Unzip progress: 80 out of 80 files (16.4 MB, themes/santorotheme/fonts/FrontageW00/demo.html)
+0182.818 () Moving unpacked backup into place...
+0182.843 () Top-level entities being moved: santorotheme
+0182.853 () Cleaning up rubbish...
+0182.855 () Entity: uploads
+0182.855 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0182.855 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads.zip, 27.7 MB)
+0182.856 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads.zip to /www/theclassmove_607/public/wp-content/upgrade/9eb04268/ using UpdraftPlus_ZipArchive, starting index 0
+0183.209 () Unzip progress: 156 out of 156 files (27.7 MB, uploads/2020/01/Secomotuquieras-2048x1152.png)
+0183.210 () Moving old data: filesystem method / updraft_dir is potentially possible
+0183.210 () Moving old data: can potentially use wp_filesystem method / -old
+0183.210 () Moving old data out of the way...
+0183.211 () Moving unpacked backup into place...
+0183.255 () Cleaning up rubbish...
+0183.256 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads2.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0183.257 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads2.zip, 25.2 MB)
+0183.257 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads2.zip to /www/theclassmove_607/public/wp-content/upgrade/49795150/ using UpdraftPlus_ZipArchive, starting index 0
+0183.536 () Unzip progress: 128 out of 128 files (25.2 MB, uploads/2020/01/Esterillas-THECLASS21-1.jpg)
+0183.537 () Moving unpacked backup into place...
+0183.577 () Cleaning up rubbish...
+0183.579 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads3.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0183.579 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads3.zip, 25.8 MB)
+0183.579 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads3.zip to /www/theclassmove_607/public/wp-content/upgrade/e328dea5/ using UpdraftPlus_ZipArchive, starting index 0
+0183.915 () Unzip progress: 136 out of 136 files (25.8 MB, uploads/2020/03/DSC01752.jpg)
+0183.916 () Moving unpacked backup into place...
+0183.961 () Cleaning up rubbish...
+0183.962 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads4.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0183.963 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads4.zip, 25.1 MB)
+0183.963 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads4.zip to /www/theclassmove_607/public/wp-content/upgrade/9e3c2959/ using UpdraftPlus_ZipArchive, starting index 0
+0184.204 () Unzip progress: 192 out of 192 files (25.1 MB, uploads/2020/03/IMG_5614-500x1000.jpg)
+0184.204 () Moving unpacked backup into place...
+0184.264 () Cleaning up rubbish...
+0184.265 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads5.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0184.265 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads5.zip, 26.6 MB)
+0184.266 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads5.zip to /www/theclassmove_607/public/wp-content/upgrade/07cd4235/ using UpdraftPlus_ZipArchive, starting index 0
+0184.561 () Unzip progress: 181 out of 181 files (26.6 MB, uploads/2020/04/DSC01903.jpg)
+0184.562 () Moving unpacked backup into place...
+0184.618 () Cleaning up rubbish...
+0184.619 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads6.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0184.620 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads6.zip, 25.1 MB)
+0184.620 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads6.zip to /www/theclassmove_607/public/wp-content/upgrade/39b4e733/ using UpdraftPlus_ZipArchive, starting index 0
+0184.875 () Unzip progress: 202 out of 202 files (25 MB, uploads/2020/05/Ashtanga-15_02-Lidiapgomez-26-500x1000.jpg)
+0184.876 () Moving unpacked backup into place...
+0184.938 () Cleaning up rubbish...
+0184.940 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads7.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0184.940 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads7.zip, 26.5 MB)
+0184.940 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads7.zip to /www/theclassmove_607/public/wp-content/upgrade/bca385a6/ using UpdraftPlus_ZipArchive, starting index 0
+0185.238 () Unzip progress: 179 out of 179 files (26.5 MB, uploads/2020/05/DSC01734.jpg)
+0185.239 () Moving unpacked backup into place...
+0185.295 () Cleaning up rubbish...
+0185.296 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads8.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0185.296 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads8.zip, 26.8 MB)
+0185.297 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads8.zip to /www/theclassmove_607/public/wp-content/upgrade/ae6a0b2e/ using UpdraftPlus_ZipArchive, starting index 0
+0185.568 () Unzip progress: 132 out of 132 files (26.8 MB, uploads/2020/05/DSC01901.jpg)
+0185.569 () Moving unpacked backup into place...
+0185.610 () Cleaning up rubbish...
+0185.611 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads9.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0185.612 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads9.zip, 25.1 MB)
+0185.612 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads9.zip to /www/theclassmove_607/public/wp-content/upgrade/ee67e69b/ using UpdraftPlus_ZipArchive, starting index 0
+0186.065 () Unzip progress: 201 out of 201 files (25.1 MB, uploads/2020/05/DSC02751-1000x1000.jpg)
+0186.066 () Moving unpacked backup into place...
+0186.132 () Cleaning up rubbish...
+0186.133 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads10.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0186.133 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads10.zip, 26.1 MB)
+0186.134 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads10.zip to /www/theclassmove_607/public/wp-content/upgrade/8f8439ec/ using UpdraftPlus_ZipArchive, starting index 0
+0186.527 () Unzip progress: 215 out of 215 files (26.1 MB, uploads/2020/05/INSTAGRAM-30.jpg)
+0186.528 () Moving unpacked backup into place...
+0186.596 () Cleaning up rubbish...
+0186.598 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads11.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0186.598 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads11.zip, 25.7 MB)
+0186.598 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads11.zip to /www/theclassmove_607/public/wp-content/upgrade/8f950842/ using UpdraftPlus_ZipArchive, starting index 0
+0186.938 () Unzip progress: 200 out of 200 files (25.7 MB, uploads/2020/05/MG_3511.jpg)
+0186.939 () Moving unpacked backup into place...
+0187.003 () Cleaning up rubbish...
+0187.005 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads12.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0187.005 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads12.zip, 25.9 MB)
+0187.005 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads12.zip to /www/theclassmove_607/public/wp-content/upgrade/f9886b81/ using UpdraftPlus_ZipArchive, starting index 0
+0187.369 () Unzip progress: 221 out of 221 files (25.8 MB, uploads/2020/05/Vinyasa-con-Cristina-11.jpg)
+0187.369 () Moving unpacked backup into place...
+0187.445 () Cleaning up rubbish...
+0187.447 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads13.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0187.447 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads13.zip, 26.9 MB)
+0187.447 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads13.zip to /www/theclassmove_607/public/wp-content/upgrade/40e78a56/ using UpdraftPlus_ZipArchive, starting index 0
+0187.914 () Unzip progress: 398 out of 398 files (26.8 MB, uploads/2020/06/L1030451.jpg)
+0187.915 () Moving unpacked backup into place...
+0188.044 () Cleaning up rubbish...
+0188.045 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads14.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0188.045 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads14.zip, 25.1 MB)
+0188.046 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads14.zip to /www/theclassmove_607/public/wp-content/upgrade/462b7bf3/ using UpdraftPlus_ZipArchive, starting index 0
+0188.341 () Unzip progress: 202 out of 202 files (25.1 MB, uploads/2020/06/bikini-challege-5-1.jpg)
+0188.342 () Moving unpacked backup into place...
+0188.406 () Cleaning up rubbish...
+0188.408 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads15.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0188.408 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads15.zip, 25.2 MB)
+0188.408 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads15.zip to /www/theclassmove_607/public/wp-content/upgrade/ec9c9187/ using UpdraftPlus_ZipArchive, starting index 0
+0188.797 () Unzip progress: 328 out of 328 files (25.1 MB, uploads/2020/06/rocket-1.jpg)
+0188.798 () Moving unpacked backup into place...
+0188.907 () Cleaning up rubbish...
+0188.908 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads16.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0188.908 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads16.zip, 25.4 MB)
+0188.909 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads16.zip to /www/theclassmove_607/public/wp-content/upgrade/4acbe8f9/ using UpdraftPlus_ZipArchive, starting index 0
+0189.291 () Unzip progress: 291 out of 291 files (25.3 MB, uploads/2020/06/tutoriales-27-new.jpg.webp)
+0189.291 () Moving unpacked backup into place...
+0189.381 () Cleaning up rubbish...
+0189.383 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads18.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0189.383 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads18.zip, 25.1 MB)
+0189.383 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads18.zip to /www/theclassmove_607/public/wp-content/upgrade/82aa1a3f/ using UpdraftPlus_ZipArchive, starting index 0
+0189.980 () Unzip progress: 224 out of 224 files (25.1 MB, uploads/2020/06/rocket-4-1536x864.jpg.webp)
+0189.981 () Moving unpacked backup into place...
+0190.054 () Cleaning up rubbish...
+0190.055 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads19.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0190.055 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads19.zip, 25.1 MB)
+0190.056 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads19.zip to /www/theclassmove_607/public/wp-content/upgrade/84aff100/ using UpdraftPlus_ZipArchive, starting index 0
+0190.662 () Unzip progress: 320 out of 320 files (25.1 MB, uploads/2020/06/clase-yoga-directo-sira-1024x576.jpg.webp)
+0190.662 () Moving unpacked backup into place...
+0190.761 () Cleaning up rubbish...
+0190.763 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads20.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0190.763 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads20.zip, 25.3 MB)
+0190.763 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads20.zip to /www/theclassmove_607/public/wp-content/upgrade/0d8f7771/ using UpdraftPlus_ZipArchive, starting index 0
+0191.419 () Unzip progress: 470 out of 470 files (25.2 MB, uploads/2020/07/Yin-yoga-intro.jpg.webp)
+0191.420 () Moving unpacked backup into place...
+0191.571 () Cleaning up rubbish...
+0191.572 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads21.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0191.572 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads21.zip, 25.1 MB)
+0191.573 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads21.zip to /www/theclassmove_607/public/wp-content/upgrade/72cb0646/ using UpdraftPlus_ZipArchive, starting index 0
+0192.082 () Unzip progress: 271 out of 271 files (25 MB, uploads/2020/07/Tutoriales-6-1536x864.jpg.webp)
+0192.083 () Moving unpacked backup into place...
+0192.182 () Cleaning up rubbish...
+0192.184 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads22.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0192.184 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads22.zip, 25.1 MB)
+0192.185 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads22.zip to /www/theclassmove_607/public/wp-content/upgrade/12d8299d/ using UpdraftPlus_ZipArchive, starting index 0
+0192.800 () Unzip progress: 347 out of 347 files (25.1 MB, uploads/2020/09/vinyasa-6.jpg.webp)
+0192.800 () Moving unpacked backup into place...
+0192.913 () Cleaning up rubbish...
+0192.915 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads23.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0192.915 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads23.zip, 25.1 MB)
+0192.915 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads23.zip to /www/theclassmove_607/public/wp-content/upgrade/932488e9/ using UpdraftPlus_ZipArchive, starting index 0
+0193.669 () Unzip progress: 319 out of 319 files (25.1 MB, uploads/2020/10/yoga-principiantes-11-1536x864.jpg.webp)
+0193.670 () Moving unpacked backup into place...
+0193.768 () Cleaning up rubbish...
+0193.769 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads24.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0193.769 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads24.zip, 27.6 MB)
+0193.770 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads24.zip to /www/theclassmove_607/public/wp-content/upgrade/62e42fb9/ using UpdraftPlus_ZipArchive, starting index 0
+0194.163 () Unzip progress: 126 out of 126 files (27.6 MB, uploads/2020/11/Ashtanga-1502-Lidiapgomez-79.jpg)
+0194.164 () Moving unpacked backup into place...
+0194.204 () Cleaning up rubbish...
+0194.205 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads25.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0194.205 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads25.zip, 25.1 MB)
+0194.206 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads25.zip to /www/theclassmove_607/public/wp-content/upgrade/37db5d7a/ using UpdraftPlus_ZipArchive, starting index 0
+0194.405 () Unzip progress: 138 out of 138 files (25.1 MB, uploads/2020/11/por-donde-empiezo-1.jpg)
+0194.406 () Moving unpacked backup into place...
+0194.449 () Cleaning up rubbish...
+0194.450 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads26.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0194.451 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads26.zip, 25.4 MB)
+0194.451 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads26.zip to /www/theclassmove_607/public/wp-content/upgrade/1d078d77/ using UpdraftPlus_ZipArchive, starting index 0
+0194.846 () Unzip progress: 305 out of 305 files (25.4 MB, uploads/2020/11/jivamukti-6.jpg.webp)
+0194.846 () Moving unpacked backup into place...
+0194.940 () Cleaning up rubbish...
+0194.942 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads27.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0194.942 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads27.zip, 25.1 MB)
+0194.942 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads27.zip to /www/theclassmove_607/public/wp-content/upgrade/0232a108/ using UpdraftPlus_ZipArchive, starting index 0
+0195.450 () Unzip progress: 183 out of 183 files (25 MB, uploads/2020/11/Copia-de-Sin-título-300x169.png.webp)
+0195.451 () Moving unpacked backup into place...
+0195.510 () Cleaning up rubbish...
+0195.511 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads28.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0195.511 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads28.zip, 25.1 MB)
+0195.512 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads28.zip to /www/theclassmove_607/public/wp-content/upgrade/833e9ecd/ using UpdraftPlus_ZipArchive, starting index 0
+0195.834 () Unzip progress: 180 out of 180 files (25 MB, uploads/2020/12/18122020-los-8-pasos-del-yoga-3-768x432.jpg)
+0195.835 () Moving unpacked backup into place...
+0195.891 () Cleaning up rubbish...
+0195.893 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads29.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0195.893 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads29.zip, 25.1 MB)
+0195.893 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads29.zip to /www/theclassmove_607/public/wp-content/upgrade/987e6502/ using UpdraftPlus_ZipArchive, starting index 0
+0196.447 () Unzip progress: 136 out of 136 files (25 MB, uploads/2020/12/15082019-IMG_0414-scaled.jpg.webp)
+0196.448 () Moving unpacked backup into place...
+0196.501 () Cleaning up rubbish...
+0196.503 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads30.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0196.503 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads30.zip, 20.1 MB)
+0196.504 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads30.zip to /www/theclassmove_607/public/wp-content/upgrade/f18248cb/ using UpdraftPlus_ZipArchive, starting index 0
+0197.094 () Unzip progress: 354 out of 354 files (62.3 MB, uploads/2021/01/DSC04388-scaled.jpg)
+0197.095 () Moving unpacked backup into place...
+0197.213 () Cleaning up rubbish...
+0197.215 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads31.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0197.215 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads31.zip, 25.1 MB)
+0197.215 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads31.zip to /www/theclassmove_607/public/wp-content/upgrade/c51339af/ using UpdraftPlus_ZipArchive, starting index 0
+0197.542 () Unzip progress: 247 out of 247 files (25 MB, uploads/2021/01/IMG_1266-2-1536x1024.jpg)
+0197.543 () Moving unpacked backup into place...
+0197.625 () Cleaning up rubbish...
+0197.627 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads32.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0197.627 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads32.zip, 25.2 MB)
+0197.627 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads32.zip to /www/theclassmove_607/public/wp-content/upgrade/30aecb30/ using UpdraftPlus_ZipArchive, starting index 0
+0198.215 () Unzip progress: 231 out of 231 files (25.1 MB, uploads/2021/01/power-flex-0-final-1536x864.jpg.webp)
+0198.216 () Moving unpacked backup into place...
+0198.291 () Cleaning up rubbish...
+0198.293 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads33.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0198.293 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads33.zip, 26.3 MB)
+0198.294 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads33.zip to /www/theclassmove_607/public/wp-content/upgrade/64bae257/ using UpdraftPlus_ZipArchive, starting index 0
+0198.827 () Unzip progress: 256 out of 256 files (26.2 MB, uploads/2021/02/yoga-integral-0-final.png)
+0198.828 () Moving unpacked backup into place...
+0198.907 () Cleaning up rubbish...
+0198.908 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads34.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0198.909 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads34.zip, 25.2 MB)
+0198.909 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads34.zip to /www/theclassmove_607/public/wp-content/upgrade/64cbec54/ using UpdraftPlus_ZipArchive, starting index 0
+0199.258 () Unzip progress: 172 out of 172 files (25.2 MB, uploads/2021/02/eleva-3.jpg.webp)
+0199.258 () Moving unpacked backup into place...
+0199.312 () Cleaning up rubbish...
+0199.313 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads35.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0199.314 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads35.zip, 25.1 MB)
+0199.314 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads35.zip to /www/theclassmove_607/public/wp-content/upgrade/415ca65d/ using UpdraftPlus_ZipArchive, starting index 0
+0199.761 () Unzip progress: 331 out of 331 files (25 MB, uploads/2021/03/tip-toe-fish-0-768x432.jpg)
+0199.761 () Moving unpacked backup into place...
+0199.863 () Cleaning up rubbish...
+0199.865 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads36.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0199.865 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads36.zip, 25.1 MB)
+0199.865 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads36.zip to /www/theclassmove_607/public/wp-content/upgrade/460b3d35/ using UpdraftPlus_ZipArchive, starting index 0
+0200.250 () Unzip progress: 379 out of 379 files (25 MB, uploads/2021/04/La-raiz-power-de-las-posturas-de-pie-1.jpg)
+0200.251 () Moving unpacked backup into place...
+0200.367 () Cleaning up rubbish...
+0200.369 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads37.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/www/theclassmove_607/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0200.369 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads37.zip, 20 MB)
+0200.369 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-uploads37.zip to /www/theclassmove_607/public/wp-content/upgrade/2c2d641f/ using UpdraftPlus_ZipArchive, starting index 0
+0200.582 () Unzip progress: 126 out of 126 files (19.9 MB, uploads/backup/2021/03/index.php)
+0200.583 () Moving unpacked backup into place...
+0200.625 () Cleaning up rubbish...
+0200.628 () Entity: others
+0200.629 () restore_backup(backup_file=backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-others.zip, type=others, info=a:2:{s:4:"path";s:39:"/www/theclassmove_607/public/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0200.629 () Unpacking backup... (backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-others.zip, 2.2 MB)
+0200.629 () Unzipping backup_2021-04-20-0517_THECLASSYOGA_Clases_de_yoga_on_0d22451f9d5c-others.zip to /www/theclassmove_607/public/wp-content/upgrade/0d8b55c0/ using UpdraftPlus_ZipArchive, starting index 0
+0200.732 () Unzip progress: 424 out of 424 files (7.8 MB, advanced-cache.php)
+0200.735 () Cleaning up rubbish...
+0200.735 () Error: Failed to delete working directory after restoring. (/www/theclassmove_607/public/wp-content/upgrade/0d8b55c0)
+0200.751 () Restore successful!
+0200.751 () Restore successful

@@ -1,0 +1,510 @@
+0000.001 (0) Opened log file at time: Tue, 20 Apr 2021 21:07:40 +0000 on https://theclassmove.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.41 WP: 5.7.1 PHP: 7.3.27-9+ubuntu20.04.1+deb.sury.org+1 (fpm-fcgi, Linux mvB-theclassmove 5.4.0-1040-gcp #43-Ubuntu SMP Fri Mar 19 17:49:48 UTC 2021 x86_64) MySQL: 10.5.9-MariaDB-1:10.5.9+maria~focal-log WPLANG: es_ES Server: nginx/1.19.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.9M | 32M) multisite: N openssl: OpenSSL 1.1.1j  16 Feb 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: Unknown
+0000.003 (0) Deleting old temporary file: log.347124087f94-browser.txt
+0000.003 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.004 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.006 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1618888673, seconds_ago=64187)
+0000.006 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2021-04-20 21:07:40
+0000.007 (0) Semaphore (fd, wp_options) reset to 1
+0000.007 (0) Set semaphore last lock (fd) time to 2021-04-20 21:07:40
+0000.007 (0) Semaphore lock (fd) complete
+0000.008 (0) Backup run: resumption=0, nonce=427584c884f8, file_nonce=427584c884f8 begun at=1618952860 (0s ago), job type=backup
+0000.009 (0) Scheduling a resumption (1) after 300 seconds (1618953160) in case this run gets aborted
+0000.033 (0) Checking if we have a zip executable available
+0000.034 (0) Creation of backups of directories: beginning
+0000.035 (0) No backup of plugins: excluded by user's options
+0000.035 (0) No backup of themes: excluded by user's options
+0000.035 (0) No backup of uploads: excluded by user's options
+0000.035 (0) No backup of others: excluded by user's options
+0000.036 (0) Saving backup status to database (elements: 0)
+0000.037 (0) Beginning creation of database dump (WordPress DB)
+0000.038 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.043 (0) Table wp_options: Total expected rows (approximate): 1015
+0000.069 (0) Table wp_options: Rows added in this batch (next record: 671242): 1010 (uncompressed bytes in this segment=555905) in 0.02 seconds
+0000.071 (0) Table wp_options: finishing file(s) (2, 105.3 KB)
+0000.072 (0) Table wp_users: Total expected rows (approximate): 12975
+0000.290 (0) Table wp_users: Rows added in this batch (next record: 13593): 12975 (uncompressed bytes in this segment=2043959) in 0.22 seconds
+0000.292 (0) Table wp_users: finishing file(s) (2, 696.8 KB)
+0000.294 (0) Table wp_usermeta: Total expected rows (approximate): 322819
+0000.295 (0) [Warning] La tabla wp_usermeta tiene muchas filas (322819) - esperamos que su proveedor de alojamiento web le proporcione los recursos suficientes para volcar esa tabla en el respaldo Si no, necesitarás eliminar datos de esta tabla, o contactar con tu empresa de alojamiento para solicitar más recursos.
+0001.233 (0) Table wp_usermeta: Rows added in this batch (next record: 135547): 100000 (uncompressed bytes in this segment=6523447) in 0.94 seconds
+0002.109 (0) Table wp_usermeta: Rows added in this batch (next record: 262926): 100000 (uncompressed bytes in this segment=6683145) in 0.87 seconds
+0002.903 (0) Table wp_usermeta: Rows added in this batch (next record: 398305): 100000 (uncompressed bytes in this segment=6631349) in 0.79 seconds
+0003.084 (0) Table wp_usermeta: Rows added in this batch (next record: 426087): 22819 (uncompressed bytes in this segment=1514199) in 0.18 seconds
+0003.086 (0) Table wp_usermeta: finishing file(s) (5, 3717.6 KB)
+0003.087 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 14666
+0003.314 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 175481): 14666 (uncompressed bytes in this segment=5148406) in 0.23 seconds
+0003.316 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 394.8 KB)
+0003.317 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 15
+0003.319 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: 417768): 15 (uncompressed bytes in this segment=1180) in 0.00 seconds
+0003.320 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.6 KB)
+0003.321 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 7
+0003.322 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=882) in 0.00 seconds
+0003.323 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0003.324 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 41260
+0003.703 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 465360): 41260 (uncompressed bytes in this segment=3869781) in 0.38 seconds
+0003.705 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 396.7 KB)
+0003.706 (0) Table wp_commentmeta: Total expected rows (approximate): 19725
+0003.848 (0) Table wp_commentmeta: Rows added in this batch (next record: 20618): 19725 (uncompressed bytes in this segment=645937) in 0.14 seconds
+0003.850 (0) Table wp_commentmeta: finishing file(s) (2, 104.5 KB)
+0003.851 (0) Table wp_comments: Total expected rows (approximate): 103228
+0005.248 (0) Table wp_comments: Rows added in this batch (next record: 115984): 100000 (uncompressed bytes in this segment=23339798) in 1.40 seconds
+0005.296 (0) Table wp_comments: Rows added in this batch (next record: 119221): 3228 (uncompressed bytes in this segment=767304) in 0.05 seconds
+0005.298 (0) Table wp_comments: finishing file(s) (3, 1538.2 KB)
+0005.299 (0) Table wp_imagify_files: Total expected rows (approximate): 0
+0005.300 (0) Table wp_imagify_files: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1491) in 0.00 seconds
+0005.302 (0) Table wp_imagify_files: finishing file(s) (2, 0.6 KB)
+0005.303 (0) Table wp_imagify_folders: Total expected rows (approximate): 0
+0005.304 (0) Table wp_imagify_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=632) in 0.00 seconds
+0005.305 (0) Table wp_imagify_folders: finishing file(s) (2, 0.4 KB)
+0005.306 (0) Table wp_links: Total expected rows (approximate): 0
+0005.307 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0005.308 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0005.309 (0) Table wp_postmeta: Total expected rows (approximate): 915998
+0005.310 (0) [Warning] La tabla wp_postmeta tiene muchas filas (915998) - esperamos que su proveedor de alojamiento web le proporcione los recursos suficientes para volcar esa tabla en el respaldo Si no, necesitarás eliminar datos de esta tabla, o contactar con tu empresa de alojamiento para solicitar más recursos.
+0006.092 (0) Table wp_postmeta: Rows added in this batch (next record: 130843): 100000 (uncompressed bytes in this segment=5272076) in 0.78 seconds
+0006.902 (0) Table wp_postmeta: Rows added in this batch (next record: 243299): 100000 (uncompressed bytes in this segment=5436081) in 0.81 seconds
+0007.681 (0) Table wp_postmeta: Rows added in this batch (next record: 356529): 100000 (uncompressed bytes in this segment=5856949) in 0.77 seconds
+0008.438 (0) Table wp_postmeta: Rows added in this batch (next record: 475929): 100000 (uncompressed bytes in this segment=5475119) in 0.75 seconds
+0009.193 (0) Table wp_postmeta: Rows added in this batch (next record: 589785): 100000 (uncompressed bytes in this segment=5496850) in 0.75 seconds
+0009.962 (0) Table wp_postmeta: Rows added in this batch (next record: 699396): 100000 (uncompressed bytes in this segment=5703486) in 0.77 seconds
+0010.727 (0) Table wp_postmeta: Rows added in this batch (next record: 808222): 100000 (uncompressed bytes in this segment=5756095) in 0.76 seconds
+0011.539 (0) Table wp_postmeta: Rows added in this batch (next record: 926321): 100000 (uncompressed bytes in this segment=6769846) in 0.81 seconds
+0012.329 (0) Table wp_postmeta: Rows added in this batch (next record: 1034130): 100000 (uncompressed bytes in this segment=5927861) in 0.79 seconds
+0012.463 (0) Table wp_postmeta: Rows added in this batch (next record: 1050986): 15998 (uncompressed bytes in this segment=934268) in 0.13 seconds
+0012.465 (0) Table wp_postmeta: finishing file(s) (11, 8369.3 KB)
+0012.466 (0) Table wp_posts: Total expected rows (approximate): 25947
+0013.116 (0) Table wp_posts: Rows added in this batch (next record: 40808): 25947 (uncompressed bytes in this segment=13124514) in 0.65 seconds
+0013.118 (0) Table wp_posts: finishing file(s) (2, 1666.2 KB)
+0013.119 (0) Table wp_searchwp_index: Total expected rows (approximate): 9518
+0013.202 (0) Table wp_searchwp_index: Rows added in this batch (next record: 16239): 9518 (uncompressed bytes in this segment=582086) in 0.08 seconds
+0013.204 (0) Table wp_searchwp_index: finishing file(s) (2, 54.1 KB)
+0013.206 (0) Table wp_searchwp_log: Total expected rows (approximate): 113
+0013.208 (0) Table wp_searchwp_log: Rows added in this batch (next record: 113): 113 (uncompressed bytes in this segment=7581) in 0.00 seconds
+0013.209 (0) Table wp_searchwp_log: finishing file(s) (2, 1.6 KB)
+0013.210 (0) Table wp_searchwp_status: Total expected rows (approximate): 172
+0013.212 (0) Table wp_searchwp_status: Rows added in this batch (next record: 302): 172 (uncompressed bytes in this segment=13863) in 0.00 seconds
+0013.213 (0) Table wp_searchwp_status: finishing file(s) (2, 1.9 KB)
+0013.214 (0) Table wp_searchwp_tokens: Total expected rows (approximate): 1666
+0013.221 (0) Table wp_searchwp_tokens: Rows added in this batch (next record: 1666): 1666 (uncompressed bytes in this segment=50672) in 0.01 seconds
+0013.223 (0) Table wp_searchwp_tokens: finishing file(s) (2, 15.8 KB)
+0013.224 (0) Table wp_term_relationships: Total expected rows (approximate): 56
+0013.225 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 56 (uncompressed bytes in this segment=1590) in 0.00 seconds
+0013.227 (0) Table wp_term_relationships: finishing file(s) (2, 0.6 KB)
+0013.228 (0) Table wp_term_taxonomy: Total expected rows (approximate): 48
+0013.229 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 51): 48 (uncompressed bytes in this segment=2619) in 0.00 seconds
+0013.230 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0013.231 (0) Table wp_termmeta: Total expected rows (approximate): 1
+0013.232 (0) Table wp_termmeta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=751) in 0.00 seconds
+0013.234 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0013.235 (0) Table wp_terms: Total expected rows (approximate): 48
+0013.236 (0) Table wp_terms: Rows added in this batch (next record: 51): 48 (uncompressed bytes in this segment=2572) in 0.00 seconds
+0013.237 (0) Table wp_terms: finishing file(s) (2, 1 KB)
+0013.238 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 1
+0013.239 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=585) in 0.00 seconds
+0013.240 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0013.241 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 2
+0013.242 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 480): 2 (uncompressed bytes in this segment=1556) in 0.00 seconds
+0013.244 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.6 KB)
+0013.245 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0013.246 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=659) in 0.00 seconds
+0013.247 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0013.248 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 4
+0013.249 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=872) in 0.00 seconds
+0013.250 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.5 KB)
+0013.251 (0) Table wp_wcs_payment_retries: Total expected rows (approximate): 950
+0013.261 (0) Table wp_wcs_payment_retries: Rows added in this batch (next record: 950): 950 (uncompressed bytes in this segment=246349) in 0.01 seconds
+0013.262 (0) Table wp_wcs_payment_retries: finishing file(s) (2, 12.8 KB)
+0013.263 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 196118
+0013.264 (0) [Warning] La tabla wp_woocommerce_order_itemmeta tiene muchas filas (196118) - esperamos que su proveedor de alojamiento web le proporcione los recursos suficientes para volcar esa tabla en el respaldo Si no, necesitarás eliminar datos de esta tabla, o contactar con tu empresa de alojamiento para solicitar más recursos.
+0014.038 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 112742): 100000 (uncompressed bytes in this segment=5950898) in 0.77 seconds
+0014.831 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 215580): 96118 (uncompressed bytes in this segment=13167451) in 0.79 seconds
+0014.833 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (3, 1419.7 KB)
+0014.835 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 11228
+0014.923 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: 12044): 11228 (uncompressed bytes in this segment=408539) in 0.09 seconds
+0014.924 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 71.5 KB)
+0014.925 (0) Table wp_affiliate_wp_affiliatemeta: Total expected rows (approximate): 1
+0014.927 (0) Table wp_affiliate_wp_affiliatemeta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=869) in 0.00 seconds
+0014.928 (0) Table wp_affiliate_wp_affiliatemeta: finishing file(s) (2, 0.4 KB)
+0014.929 (0) Table wp_affiliate_wp_affiliates: Total expected rows (approximate): 13284
+0015.079 (0) Table wp_affiliate_wp_affiliates: Rows added in this batch (next record: 13335): 13284 (uncompressed bytes in this segment=1236482) in 0.15 seconds
+0015.080 (0) Table wp_affiliate_wp_affiliates: finishing file(s) (2, 203.4 KB)
+0015.082 (0) Table wp_affiliate_wp_coupons: Total expected rows (approximate): 12229
+0015.169 (0) Table wp_affiliate_wp_coupons: Rows added in this batch (next record: 12230): 12229 (uncompressed bytes in this segment=358275) in 0.09 seconds
+0015.171 (0) Table wp_affiliate_wp_coupons: finishing file(s) (2, 154.9 KB)
+0015.172 (0) Table wp_affiliate_wp_creatives: Total expected rows (approximate): 0
+0015.173 (0) Table wp_affiliate_wp_creatives: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=891) in 0.00 seconds
+0015.175 (0) Table wp_affiliate_wp_creatives: finishing file(s) (2, 0.4 KB)
+0015.176 (0) Table wp_affiliate_wp_customermeta: Total expected rows (approximate): 35
+0015.177 (0) Table wp_affiliate_wp_customermeta: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=2051) in 0.00 seconds
+0015.178 (0) Table wp_affiliate_wp_customermeta: finishing file(s) (2, 0.7 KB)
+0015.180 (0) Table wp_affiliate_wp_customers: Total expected rows (approximate): 35
+0015.181 (0) Table wp_affiliate_wp_customers: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=4388) in 0.00 seconds
+0015.183 (0) Table wp_affiliate_wp_customers: finishing file(s) (2, 1.9 KB)
+0015.184 (0) Table wp_affiliate_wp_payouts: Total expected rows (approximate): 2
+0015.185 (0) Table wp_affiliate_wp_payouts: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1334) in 0.00 seconds
+0015.186 (0) Table wp_affiliate_wp_payouts: finishing file(s) (2, 0.5 KB)
+0015.187 (0) Table wp_affiliate_wp_referralmeta: Total expected rows (approximate): 0
+0015.188 (0) Table wp_affiliate_wp_referralmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=753) in 0.00 seconds
+0015.190 (0) Table wp_affiliate_wp_referralmeta: finishing file(s) (2, 0.4 KB)
+0015.190 (0) Table wp_affiliate_wp_referrals: Total expected rows (approximate): 71
+0015.193 (0) Table wp_affiliate_wp_referrals: Rows added in this batch (next record: 71): 71 (uncompressed bytes in this segment=19586) in 0.00 seconds
+0015.194 (0) Table wp_affiliate_wp_referrals: finishing file(s) (2, 2.7 KB)
+0015.195 (0) Table wp_affiliate_wp_rest_consumers: Total expected rows (approximate): 0
+0015.196 (0) Table wp_affiliate_wp_rest_consumers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=851) in 0.00 seconds
+0015.197 (0) Table wp_affiliate_wp_rest_consumers: finishing file(s) (2, 0.4 KB)
+0015.198 (0) Table wp_affiliate_wp_sales: Total expected rows (approximate): 68
+0015.200 (0) Table wp_affiliate_wp_sales: Rows added in this batch (next record: 71): 68 (uncompressed bytes in this segment=2123) in 0.00 seconds
+0015.201 (0) Table wp_affiliate_wp_sales: finishing file(s) (2, 0.7 KB)
+0015.202 (0) Table wp_affiliate_wp_visits: Total expected rows (approximate): 1381
+0015.219 (0) Table wp_affiliate_wp_visits: Rows added in this batch (next record: 1387): 1381 (uncompressed bytes in this segment=190926) in 0.02 seconds
+0015.220 (0) Table wp_affiliate_wp_visits: finishing file(s) (2, 29.5 KB)
+0015.221 (0) Table wp_datalist: Total expected rows (approximate): 0
+0015.222 (0) Table wp_datalist: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=526) in 0.00 seconds
+0015.224 (0) Table wp_datalist: finishing file(s) (2, 0.3 KB)
+0015.225 (0) Table wp_facetwp_index: Total expected rows (approximate): 3353
+0015.253 (0) Table wp_facetwp_index: Rows added in this batch (next record: 4903): 3353 (uncompressed bytes in this segment=227868) in 0.03 seconds
+0015.255 (0) Table wp_facetwp_index: finishing file(s) (2, 23.6 KB)
+0015.256 (0) Table wp_hc_hmw_short_code: Total expected rows (approximate): 3
+0015.257 (0) Table wp_hc_hmw_short_code: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1608) in 0.00 seconds
+0015.259 (0) Table wp_hc_hmw_short_code: finishing file(s) (2, 0.6 KB)
+0015.260 (0) Table wp_layerslider: Total expected rows (approximate): 0
+0015.261 (0) Table wp_layerslider: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=867) in 0.00 seconds
+0015.262 (0) Table wp_layerslider: finishing file(s) (2, 0.4 KB)
+0015.263 (0) Table wp_redirection_404: Total expected rows (approximate): 3114
+0015.290 (0) Table wp_redirection_404: Rows added in this batch (next record: 107994): 3090 (uncompressed bytes in this segment=828463) in 0.03 seconds
+0015.291 (0) Table wp_redirection_404: finishing file(s) (2, 58.2 KB)
+0015.292 (0) Table wp_redirection_groups: Total expected rows (approximate): 2
+0015.293 (0) Table wp_redirection_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=961) in 0.00 seconds
+0015.295 (0) Table wp_redirection_groups: finishing file(s) (2, 0.5 KB)
+0015.296 (0) Table wp_redirection_items: Total expected rows (approximate): 3
+0015.297 (0) Table wp_redirection_items: Rows added in this batch (next record: 52): 3 (uncompressed bytes in this segment=2144) in 0.00 seconds
+0015.298 (0) Table wp_redirection_items: finishing file(s) (2, 0.8 KB)
+0015.299 (0) Table wp_redirection_logs: Total expected rows (approximate): 24
+0015.300 (0) Table wp_redirection_logs: Rows added in this batch (next record: 4314): 24 (uncompressed bytes in this segment=10228) in 0.00 seconds
+0015.302 (0) Table wp_redirection_logs: finishing file(s) (2, 1.9 KB)
+0015.303 (0) Table wp_revslider_css: Total expected rows (approximate): 109
+0015.305 (0) Table wp_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=90724) in 0.00 seconds
+0015.307 (0) Table wp_revslider_css: finishing file(s) (2, 4.8 KB)
+0015.308 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0015.309 (0) Table wp_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=553) in 0.00 seconds
+0015.310 (0) Table wp_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0015.311 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0015.312 (0) Table wp_revslider_navigations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=598) in 0.00 seconds
+0015.313 (0) Table wp_revslider_navigations: finishing file(s) (2, 0.3 KB)
+0015.314 (0) Table wp_revslider_sliders: Total expected rows (approximate): 0
+0015.315 (0) Table wp_revslider_sliders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=582) in 0.00 seconds
+0015.316 (0) Table wp_revslider_sliders: finishing file(s) (2, 0.3 KB)
+0015.317 (0) Table wp_revslider_slides: Total expected rows (approximate): 0
+0015.318 (0) Table wp_revslider_slides: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=562) in 0.00 seconds
+0015.320 (0) Table wp_revslider_slides: finishing file(s) (2, 0.3 KB)
+0015.321 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0015.322 (0) Table wp_revslider_static_slides: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=570) in 0.00 seconds
+0015.323 (0) Table wp_revslider_static_slides: finishing file(s) (2, 0.3 KB)
+0015.324 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 38
+0015.325 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 1835): 38 (uncompressed bytes in this segment=6371) in 0.00 seconds
+0015.327 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 1.9 KB)
+0015.328 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 35
+0015.329 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 47): 35 (uncompressed bytes in this segment=16911) in 0.00 seconds
+0015.331 (0) Table wp_wc_admin_notes: finishing file(s) (2, 4.9 KB)
+0015.332 (0) Table wp_wc_cancel_orders: Total expected rows (approximate): 0
+0015.333 (0) Table wp_wc_cancel_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=659) in 0.00 seconds
+0015.334 (0) Table wp_wc_cancel_orders: finishing file(s) (2, 0.4 KB)
+0015.335 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 7236
+0015.446 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 7297): 7236 (uncompressed bytes in this segment=1016170) in 0.11 seconds
+0015.448 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 251 KB)
+0015.449 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0015.450 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0015.452 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0015.453 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 1269
+0015.458 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 2000): 1269 (uncompressed bytes in this segment=61713) in 0.01 seconds
+0015.460 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 12.8 KB)
+0015.461 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 9470
+0015.558 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 28906): 9470 (uncompressed bytes in this segment=878196) in 0.10 seconds
+0015.560 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 135.1 KB)
+0015.561 (0) Table wp_wc_order_stats: Total expected rows (approximate): 16944
+0015.765 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 40808): 16944 (uncompressed bytes in this segment=1873421) in 0.20 seconds
+0015.767 (0) Table wp_wc_order_stats: finishing file(s) (2, 257.7 KB)
+0015.768 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 9452
+0015.813 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 10000): 9452 (uncompressed bytes in this segment=697856) in 0.04 seconds
+0015.815 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 82.5 KB)
+0015.816 (0) Table wp_wc_webhooks: Total expected rows (approximate): 16
+0015.817 (0) Table wp_wc_webhooks: Rows added in this batch (next record: 32): 16 (uncompressed bytes in this segment=5767) in 0.00 seconds
+0015.819 (0) Table wp_wc_webhooks: finishing file(s) (2, 1 KB)
+0015.820 (0) Table wp_wcpdf_invoice_number: Total expected rows (approximate): 1
+0015.821 (0) Table wp_wcpdf_invoice_number: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=697) in 0.00 seconds
+0015.822 (0) Table wp_wcpdf_invoice_number: finishing file(s) (2, 0.4 KB)
+0015.823 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 1
+0015.824 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1349) in 0.00 seconds
+0015.826 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.6 KB)
+0015.827 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0015.827 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=939) in 0.00 seconds
+0015.829 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0015.830 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0015.831 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1514) in 0.00 seconds
+0015.832 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0015.833 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0015.834 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=719) in 0.00 seconds
+0015.835 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0015.836 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 26277
+0016.026 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 28907): 26277 (uncompressed bytes in this segment=1164482) in 0.19 seconds
+0016.027 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 121.7 KB)
+0016.028 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 2807
+0016.054 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: 3011): 2807 (uncompressed bytes in this segment=185879) in 0.03 seconds
+0016.056 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 51.8 KB)
+0016.057 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 3555
+0016.153 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 552686): 3555 (uncompressed bytes in this segment=6789173) in 0.10 seconds
+0016.155 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 172.5 KB)
+0016.156 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0016.157 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=862) in 0.00 seconds
+0016.159 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0016.160 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0016.161 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.00 seconds
+0016.162 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0016.163 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0016.164 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.00 seconds
+0016.165 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.3 KB)
+0016.166 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0016.167 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.00 seconds
+0016.168 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0016.169 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0016.170 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1273) in 0.00 seconds
+0016.171 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0016.172 (0) Table wp_wsal_metadata: Total expected rows (approximate): 39519
+0016.482 (0) Table wp_wsal_metadata: Rows added in this batch (next record: 39519): 39519 (uncompressed bytes in this segment=2320699) in 0.31 seconds
+0016.484 (0) Table wp_wsal_metadata: finishing file(s) (2, 282.3 KB)
+0016.485 (0) Table wp_wsal_occurrences: Total expected rows (approximate): 3022
+0016.508 (0) Table wp_wsal_occurrences: Rows added in this batch (next record: 3022): 3022 (uncompressed bytes in this segment=195834) in 0.02 seconds
+0016.510 (0) Table wp_wsal_occurrences: finishing file(s) (2, 32.4 KB)
+0016.510 (0) Table wp_wsal_options: Total expected rows (approximate): 28
+0016.562 (0) Table wp_wsal_options: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=2063017) in 0.05 seconds
+0016.564 (0) Table wp_wsal_options: finishing file(s) (2, 365.4 KB)
+0016.565 (0) Table wp_wt_abandonment_coupon: Total expected rows (approximate): 722
+0016.575 (0) Table wp_wt_abandonment_coupon: Rows added in this batch (next record: 722): 722 (uncompressed bytes in this segment=263109) in 0.01 seconds
+0016.576 (0) Table wp_wt_abandonment_coupon: finishing file(s) (2, 12.1 KB)
+0016.577 (0) Table wp_yoast_indexable: Total expected rows (approximate): 34248
+0017.500 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 38109): 34248 (uncompressed bytes in this segment=16200705) in 0.92 seconds
+0017.502 (0) Table wp_yoast_indexable: finishing file(s) (2, 1849.3 KB)
+0017.503 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 4416
+0017.514 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 5000): 4416 (uncompressed bytes in this segment=95881) in 0.01 seconds
+0017.515 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 20 KB)
+0017.516 (0) Table wp_yoast_migrations: Total expected rows (approximate): 18
+0017.517 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 1000): 18 (uncompressed bytes in this segment=918) in 0.00 seconds
+0017.519 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.5 KB)
+0017.520 (0) Table wp_yoast_primary_term: Total expected rows (approximate): 15
+0017.521 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: 199): 15 (uncompressed bytes in this segment=2106) in 0.00 seconds
+0017.522 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.8 KB)
+0017.523 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 1279
+0017.537 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 15778): 1279 (uncompressed bytes in this segment=172117) in 0.01 seconds
+0017.539 (0) Table wp_yoast_seo_links: finishing file(s) (2, 19 KB)
+0017.540 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 1749
+0017.545 (0) Table wp_yoast_seo_meta: Rows added in this batch (next record: 29558): 1749 (uncompressed bytes in this segment=27944) in 0.01 seconds
+0017.547 (0) Table wp_yoast_seo_meta: finishing file(s) (2, 5.2 KB)
+0017.548 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_options.table.tmpr671243.gz (1/88): adding to final database dump
+0017.563 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_options.table.gz (2/88): adding to final database dump
+0017.564 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_users.table.tmpr13594.gz (3/88): adding to final database dump
+0017.656 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_users.table.gz (4/88): adding to final database dump
+0017.657 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_usermeta.table.tmpr135547.gz (5/88): adding to final database dump
+0017.880 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_usermeta.table.tmpr262926.gz (6/88): adding to final database dump
+0018.093 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_usermeta.table.tmpr398305.gz (7/88): adding to final database dump
+0018.296 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_usermeta.table.tmpr426088.gz (8/88): adding to final database dump
+0018.342 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_usermeta.table.gz (9/88): adding to final database dump
+0018.343 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_actionscheduler_actions.table.tmpr175482.gz (10/88): adding to final database dump
+0018.432 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_actionscheduler_actions.table.gz (11/88): adding to final database dump
+0018.432 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_actionscheduler_claims.table.tmpr417769.gz (12/88): adding to final database dump
+0018.432 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_actionscheduler_claims.table.gz (13/88): adding to final database dump
+0018.433 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_actionscheduler_groups.table.tmpr8.gz (14/88): adding to final database dump
+0018.433 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_actionscheduler_groups.table.gz (15/88): adding to final database dump
+0018.433 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_actionscheduler_logs.table.tmpr465361.gz (16/88): adding to final database dump
+0018.545 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_actionscheduler_logs.table.gz (17/88): adding to final database dump
+0018.545 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_commentmeta.table.tmpr20619.gz (18/88): adding to final database dump
+0018.570 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_commentmeta.table.gz (19/88): adding to final database dump
+0018.571 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_comments.table.tmpr115984.gz (20/88): adding to final database dump
+0018.934 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_comments.table.tmpr119222.gz (21/88): adding to final database dump
+0018.946 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_comments.table.gz (22/88): adding to final database dump
+0018.947 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_imagify_files.table.tmpr0.gz (23/88): adding to final database dump
+0018.947 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_imagify_files.table.gz (24/88): adding to final database dump
+0018.947 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_imagify_folders.table.tmpr0.gz (25/88): adding to final database dump
+0018.948 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_imagify_folders.table.gz (26/88): adding to final database dump
+0018.948 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_links.table.tmpr0.gz (27/88): adding to final database dump
+0018.948 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_links.table.gz (28/88): adding to final database dump
+0018.949 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_postmeta.table.tmpr130843.gz (29/88): adding to final database dump
+0019.141 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_postmeta.table.tmpr243299.gz (30/88): adding to final database dump
+0019.340 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_postmeta.table.tmpr356529.gz (31/88): adding to final database dump
+0019.526 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_postmeta.table.tmpr475929.gz (32/88): adding to final database dump
+0019.700 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_postmeta.table.tmpr589785.gz (33/88): adding to final database dump
+0019.871 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_postmeta.table.tmpr699396.gz (34/88): adding to final database dump
+0020.055 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_postmeta.table.tmpr808222.gz (35/88): adding to final database dump
+0020.237 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_postmeta.table.tmpr926321.gz (36/88): adding to final database dump
+0020.437 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_postmeta.table.tmpr1034130.gz (37/88): adding to final database dump
+0020.626 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_postmeta.table.tmpr1050987.gz (38/88): adding to final database dump
+0020.658 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_postmeta.table.gz (39/88): adding to final database dump
+0020.658 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_posts.table.tmpr40809.gz (40/88): adding to final database dump
+0020.963 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_posts.table.gz (41/88): adding to final database dump
+0020.964 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_searchwp_index.table.tmpr16240.gz (42/88): adding to final database dump
+0020.982 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_searchwp_index.table.gz (43/88): adding to final database dump
+0020.983 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_searchwp_log.table.tmpr114.gz (44/88): adding to final database dump
+0020.984 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_searchwp_log.table.gz (45/88): adding to final database dump
+0020.984 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_searchwp_status.table.tmpr303.gz (46/88): adding to final database dump
+0020.985 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_searchwp_status.table.gz (47/88): adding to final database dump
+0020.985 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_searchwp_tokens.table.tmpr1667.gz (48/88): adding to final database dump
+0020.989 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_searchwp_tokens.table.gz (49/88): adding to final database dump
+0020.989 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_term_relationships.table.tmpr100001.gz (50/88): adding to final database dump
+0020.990 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_term_relationships.table.gz (51/88): adding to final database dump
+0020.990 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_term_taxonomy.table.tmpr52.gz (52/88): adding to final database dump
+0020.991 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_term_taxonomy.table.gz (53/88): adding to final database dump
+0020.991 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_termmeta.table.tmpr2.gz (54/88): adding to final database dump
+0020.992 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_termmeta.table.gz (55/88): adding to final database dump
+0020.992 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_terms.table.tmpr52.gz (56/88): adding to final database dump
+0020.992 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_terms.table.gz (57/88): adding to final database dump
+0020.993 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_category_lookup.table.tmpr1001.gz (58/88): adding to final database dump
+0020.993 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_category_lookup.table.gz (59/88): adding to final database dump
+0020.993 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_product_meta_lookup.table.tmpr481.gz (60/88): adding to final database dump
+0020.994 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_product_meta_lookup.table.gz (61/88): adding to final database dump
+0020.994 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_reserved_stock.table.tmpr1.gz (62/88): adding to final database dump
+0020.995 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_reserved_stock.table.gz (63/88): adding to final database dump
+0020.995 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_tax_rate_classes.table.tmpr5.gz (64/88): adding to final database dump
+0020.995 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_tax_rate_classes.table.gz (65/88): adding to final database dump
+0020.996 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wcs_payment_retries.table.tmpr951.gz (66/88): adding to final database dump
+0021.000 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wcs_payment_retries.table.gz (67/88): adding to final database dump
+0021.001 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_order_itemmeta.table.tmpr112742.gz (68/88): adding to final database dump
+0021.189 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_order_itemmeta.table.tmpr215581.gz (69/88): adding to final database dump
+0021.411 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_order_itemmeta.table.gz (70/88): adding to final database dump
+0021.412 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr12045.gz (71/88): adding to final database dump
+0021.432 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_payment_tokenmeta.table.gz (72/88): adding to final database dump
+0021.433 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_affiliatemeta.table.tmpr2.gz (73/88): adding to final database dump
+0021.433 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_affiliatemeta.table.gz (74/88): adding to final database dump
+0021.434 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_affiliates.table.tmpr13336.gz (75/88): adding to final database dump
+0021.467 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_affiliates.table.gz (76/88): adding to final database dump
+0021.467 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_coupons.table.tmpr12231.gz (77/88): adding to final database dump
+0021.491 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_coupons.table.gz (78/88): adding to final database dump
+0021.492 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_creatives.table.tmpr0.gz (79/88): adding to final database dump
+0021.493 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_creatives.table.gz (80/88): adding to final database dump
+0021.493 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_customermeta.table.tmpr36.gz (81/88): adding to final database dump
+0021.493 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_customermeta.table.gz (82/88): adding to final database dump
+0021.494 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_customers.table.tmpr36.gz (83/88): adding to final database dump
+0021.495 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_customers.table.gz (84/88): adding to final database dump
+0021.495 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_payouts.table.tmpr3.gz (85/88): adding to final database dump
+0021.495 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_payouts.table.gz (86/88): adding to final database dump
+0021.496 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_referralmeta.table.tmpr0.gz (87/88): adding to final database dump
+0021.496 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_referralmeta.table.gz (88/88): adding to final database dump
+0021.496 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_referrals.table.tmpr72.gz (89/88): adding to final database dump
+0021.497 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_referrals.table.gz (90/88): adding to final database dump
+0021.497 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_rest_consumers.table.tmpr0.gz (91/88): adding to final database dump
+0021.498 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_rest_consumers.table.gz (92/88): adding to final database dump
+0021.498 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_sales.table.tmpr72.gz (93/88): adding to final database dump
+0021.498 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_sales.table.gz (94/88): adding to final database dump
+0021.499 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_visits.table.tmpr1388.gz (95/88): adding to final database dump
+0021.503 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_affiliate_wp_visits.table.gz (96/88): adding to final database dump
+0021.504 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_datalist.table.tmpr1.gz (97/88): adding to final database dump
+0021.504 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_datalist.table.gz (98/88): adding to final database dump
+0021.505 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_facetwp_index.table.tmpr4904.gz (99/88): adding to final database dump
+0021.512 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_facetwp_index.table.gz (100/88): adding to final database dump
+0021.512 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_hc_hmw_short_code.table.tmpr4.gz (101/88): adding to final database dump
+0021.513 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_hc_hmw_short_code.table.gz (102/88): adding to final database dump
+0021.513 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_layerslider.table.tmpr0.gz (103/88): adding to final database dump
+0021.513 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_layerslider.table.gz (104/88): adding to final database dump
+0021.514 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_redirection_404.table.tmpr107995.gz (105/88): adding to final database dump
+0021.526 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_redirection_404.table.gz (106/88): adding to final database dump
+0021.527 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_redirection_groups.table.tmpr3.gz (107/88): adding to final database dump
+0021.528 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_redirection_groups.table.gz (108/88): adding to final database dump
+0021.528 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_redirection_items.table.tmpr53.gz (109/88): adding to final database dump
+0021.528 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_redirection_items.table.gz (110/88): adding to final database dump
+0021.529 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_redirection_logs.table.tmpr4315.gz (111/88): adding to final database dump
+0021.530 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_redirection_logs.table.gz (112/88): adding to final database dump
+0021.530 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_revslider_css.table.tmpr110.gz (113/88): adding to final database dump
+0021.532 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_revslider_css.table.gz (114/88): adding to final database dump
+0021.532 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_revslider_layer_animations.table.tmpr0.gz (115/88): adding to final database dump
+0021.532 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_revslider_layer_animations.table.gz (116/88): adding to final database dump
+0021.533 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_revslider_navigations.table.tmpr0.gz (117/88): adding to final database dump
+0021.533 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_revslider_navigations.table.gz (118/88): adding to final database dump
+0021.533 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_revslider_sliders.table.tmpr0.gz (119/88): adding to final database dump
+0021.534 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_revslider_sliders.table.gz (120/88): adding to final database dump
+0021.534 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_revslider_slides.table.tmpr0.gz (121/88): adding to final database dump
+0021.534 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_revslider_slides.table.gz (122/88): adding to final database dump
+0021.535 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_revslider_static_slides.table.tmpr0.gz (123/88): adding to final database dump
+0021.535 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_revslider_static_slides.table.gz (124/88): adding to final database dump
+0021.535 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_admin_note_actions.table.tmpr1836.gz (125/88): adding to final database dump
+0021.536 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_admin_note_actions.table.gz (126/88): adding to final database dump
+0021.536 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_admin_notes.table.tmpr48.gz (127/88): adding to final database dump
+0021.537 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_admin_notes.table.gz (128/88): adding to final database dump
+0021.537 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_cancel_orders.table.tmpr0.gz (129/88): adding to final database dump
+0021.538 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_cancel_orders.table.gz (130/88): adding to final database dump
+0021.538 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_customer_lookup.table.tmpr7298.gz (131/88): adding to final database dump
+0021.582 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_customer_lookup.table.gz (132/88): adding to final database dump
+0021.583 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_download_log.table.tmpr0.gz (133/88): adding to final database dump
+0021.583 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_download_log.table.gz (134/88): adding to final database dump
+0021.584 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_order_coupon_lookup.table.tmpr2001.gz (135/88): adding to final database dump
+0021.586 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_order_coupon_lookup.table.gz (136/88): adding to final database dump
+0021.587 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_order_product_lookup.table.tmpr28907.gz (137/88): adding to final database dump
+0021.614 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_order_product_lookup.table.gz (138/88): adding to final database dump
+0021.615 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_order_stats.table.tmpr40809.gz (139/88): adding to final database dump
+0021.668 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_order_stats.table.gz (140/88): adding to final database dump
+0021.668 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_order_tax_lookup.table.tmpr10001.gz (141/88): adding to final database dump
+0021.685 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_order_tax_lookup.table.gz (142/88): adding to final database dump
+0021.686 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_webhooks.table.tmpr33.gz (143/88): adding to final database dump
+0021.687 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wc_webhooks.table.gz (144/88): adding to final database dump
+0021.687 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wcpdf_invoice_number.table.tmpr2.gz (145/88): adding to final database dump
+0021.687 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wcpdf_invoice_number.table.gz (146/88): adding to final database dump
+0021.688 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_api_keys.table.tmpr2.gz (147/88): adding to final database dump
+0021.688 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_api_keys.table.gz (148/88): adding to final database dump
+0021.688 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (149/88): adding to final database dump
+0021.688 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_attribute_taxonomies.table.gz (150/88): adding to final database dump
+0021.689 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (151/88): adding to final database dump
+0021.689 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (152/88): adding to final database dump
+0021.689 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_log.table.tmpr0.gz (153/88): adding to final database dump
+0021.690 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_log.table.gz (154/88): adding to final database dump
+0021.690 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_order_items.table.tmpr28908.gz (155/88): adding to final database dump
+0021.719 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_order_items.table.gz (156/88): adding to final database dump
+0021.720 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_payment_tokens.table.tmpr3012.gz (157/88): adding to final database dump
+0021.729 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_payment_tokens.table.gz (158/88): adding to final database dump
+0021.730 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_sessions.table.tmpr552687.gz (159/88): adding to final database dump
+0021.808 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_sessions.table.gz (160/88): adding to final database dump
+0021.809 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (161/88): adding to final database dump
+0021.810 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_shipping_zone_locations.table.gz (162/88): adding to final database dump
+0021.810 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (163/88): adding to final database dump
+0021.810 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_shipping_zone_methods.table.gz (164/88): adding to final database dump
+0021.811 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (165/88): adding to final database dump
+0021.811 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_shipping_zones.table.gz (166/88): adding to final database dump
+0021.811 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (167/88): adding to final database dump
+0021.812 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_tax_rate_locations.table.gz (168/88): adding to final database dump
+0021.812 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (169/88): adding to final database dump
+0021.812 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_woocommerce_tax_rates.table.gz (170/88): adding to final database dump
+0021.813 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wsal_metadata.table.tmpr39520.gz (171/88): adding to final database dump
+0021.890 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wsal_metadata.table.gz (172/88): adding to final database dump
+0021.890 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wsal_occurrences.table.tmpr3023.gz (173/88): adding to final database dump
+0021.897 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wsal_occurrences.table.gz (174/88): adding to final database dump
+0021.898 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wsal_options.table.tmpr29.gz (175/88): adding to final database dump
+0021.947 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wsal_options.table.gz (176/88): adding to final database dump
+0021.948 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wt_abandonment_coupon.table.tmpr723.gz (177/88): adding to final database dump
+0021.952 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_wt_abandonment_coupon.table.gz (178/88): adding to final database dump
+0021.953 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_yoast_indexable.table.tmpr38110.gz (179/88): adding to final database dump
+0022.264 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_yoast_indexable.table.gz (180/88): adding to final database dump
+0022.264 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_yoast_indexable_hierarchy.table.tmpr5001.gz (181/88): adding to final database dump
+0022.269 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_yoast_indexable_hierarchy.table.gz (182/88): adding to final database dump
+0022.269 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_yoast_migrations.table.tmpr1001.gz (183/88): adding to final database dump
+0022.270 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_yoast_migrations.table.gz (184/88): adding to final database dump
+0022.270 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_yoast_primary_term.table.tmpr200.gz (185/88): adding to final database dump
+0022.270 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_yoast_primary_term.table.gz (186/88): adding to final database dump
+0022.271 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_yoast_seo_links.table.tmpr15779.gz (187/88): adding to final database dump
+0022.275 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_yoast_seo_links.table.gz (188/88): adding to final database dump
+0022.275 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_yoast_seo_meta.table.tmpr29559.gz (189/88): adding to final database dump
+0022.277 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db-table-wp_yoast_seo_meta.table.gz (190/88): adding to final database dump
+0022.280 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db.gz: finished writing out complete database file (22704 KB)
+0022.475 (0) Total database tables backed up: 88 (backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db.gz, size: 23277717, sha1: db3afcd170469465083b56d78b70720cf5f7e185, sha256: 8550bb6c95da854b7e16c6cae6bd072c5fb0022741ea2f7a0e6102d96423db1e)
+0022.477 (0) backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0022.478 (0) Saving backup history. Total backup size: 22.2 MB
+0022.479 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0022.479 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0022.480 (0) No remote despatch: user chose no remote backup service
+0022.480 (0) Recording as successfully uploaded: backup_2021-04-20-2307_THECLASSYOGA_Clases_de_yoga_on_427584c884f8-db.gz
+0022.480 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0022.481 (0) Resume backup (427584c884f8, 0): finish run
+0022.481 (0) PHP event: code E_WARNING: Illegal string offset 'nonincremental_backup_time' (line 3754, wp-content/plugins/updraftplus/class-updraftplus.php)
+0022.481 (0) Decremented the semaphore (fd) by 1
+0022.482 (0) Semaphore (fd) unlocked
+0022.482 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0022.483 (0) The backup apparently succeeded and is now complete
+0022.483 (0) No email will/can be sent - the user has not configured an email address.
+0022.484 (0) El respaldo parece haber tenido éxito y ahora está completado
